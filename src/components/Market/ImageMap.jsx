@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Button,
   View,
@@ -6,15 +6,22 @@ import {
   StyleSheet,
   Image,
   ScrollView,
-  TouchableOpacity,
 } from "react-native";
 import { useSelector } from "react-redux";
 
 const ImageMap = ({ redraw }) => {
-  let Market = useSelector((store) => store.market);
+  const market = useSelector((store) => store.market);
+  const [refreshFlag, setRefreshFlag] = useState(false);
+
+  useEffect(() => {
+    if (refreshFlag) {
+      // Implement any additional logic you need here
+      console.log("Component is refreshed");
+    }
+  }, [refreshFlag]);
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {Market?.map((image, i) => (
+      {market?.map((image, i) => (
         <View style={styles.item} key={image.name}>
           <Image
             source={{ uri: image.image }}
@@ -24,15 +31,16 @@ const ImageMap = ({ redraw }) => {
           <Text style={styles.textFont}>
             {image.name} {image?.cost}
           </Text>
-          <TouchableOpacity
-            style={{ padding: 20, borderColor: "gray", borderBottomWidth: 1 }}
-            onPress={() => {
-              console.log("whoo, a button");
-              redraw(i);
-            }}
-          >
-            <Button title="redraw">Reroll</Button>
-          </TouchableOpacity>
+            <Button
+              title="redraw"
+              onPress={() => {
+                console.log("whoo, an button");
+                redraw(i);
+                setRefreshFlag(!refreshFlag); // Toggle the state to trigger a re-render
+
+              }}
+            >
+            </Button>
         </View>
       ))}
     </ScrollView>

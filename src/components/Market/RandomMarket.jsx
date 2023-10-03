@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 import ImageMap from "./ImageMap";
 const gems = require("../../../assets/gems.json");
@@ -8,32 +8,32 @@ import { useDispatch, useSelector } from "react-redux";
 
 export default function RandomMarket() {
   let dispatch = useDispatch();
-  let minMax = [4, 5];
   const market = useSelector((store) => store.market);
-  const newMarket = [
-    // { name: "Arcane Relay", uri: require("../../assets/images/Arcane_Relay.jpg") },
-    // { name: "Blast Sphere", uri: require("../../assets/images/Blast_Sphere.jpg") },
-    // { name: "Bottled_Sun", uri: require("../../assets/images/Bottled_Sun.jpg") },
-    // { name: "Bouncing_Boom", uri: require("../../assets/images/Bouncing_Boom.jpg") },
-    // { name: "Breach_Extractor", uri: require("../../assets/images/Breach_Extractor.jpg") },
-    // { name: "Breach_Seeker", uri: require("../../assets/images/Breach_Seeker.jpg") },
-    // { name: "Cache_Glass", uri: require("../../assets/images/Cache_Glass.jpg") },
-    // { name: "Caged_Fire", uri: require("../../assets/images/Caged_Fire.jpg") },
-    // { name: "Carnivorous_Roox", uri: require("../../assets/images/Carnivorous_Roox.jpg") },
-  ];
+  const [isLoading, setIsLoading] = useState(true); // Initialize loading state
+
+  let newMarket = [];
   useEffect(() => {
     initialDraw();
   }, []);
 
-  const initialDraw = () => {
-    for (let i = 0; i < 9; i++) {
-      i = redraw(i);
-      // console.log(newMarket);
+  const initialDraw = async () => {
+    try {
+
+      for (let i = 0; i < 9; i++) {
+        redraw(i);
+        console.log(20, i);
+      }
+    } catch {
+      console.log("error in initial draw")
+    } finally {
+      setIsLoading(false);
     }
+
   };
 
-  const redraw = (i) => {
-    // console.log("i", i);
+  const redraw = async (i) => {
+    newMarket=market;
+    console.log("i", i);
     if (i < 3) {
       let random = Math.floor(Math.random() * gems.length);
       console.log("rand", i, random, gems[random]);
@@ -68,7 +68,7 @@ export default function RandomMarket() {
     if (i >= 3 && i < 5) {
       let random = Math.floor(Math.random() * relics.length);
       // console.log("relic", i, relics[random]);
-      if (newMarket[i - 1].name !== relics[random].name) {
+      if (newMarket[i - 1]?.name !== relics[random]?.name) {
         newMarket[i] = relics[random];
       }
     }
@@ -84,58 +84,62 @@ export default function RandomMarket() {
       }
     }
     reorderNewMarket(newMarket);
-    dispatch({ type: "SET_MARKET", payload: newMarket });
-    return i;
+    dispatch({ type: "UPDATE_MARKET", payload: newMarket });
+    console.log("i", i) ;
+    let output = i
+    return output;
   };
 
   const reorderNewMarket = (newMarket) => {
     console.log(newMarket);
-    for (let i = 0; i < newMarket.length; i++) {
-      if (i < 2 && newMarket.length > 1) {
+    for (let j = 0; j < newMarket.length; j++) {
+      if (j < 2 && newMarket.length > 1) {
         console.log(
           "gem parseint",
-          i,
-          parseInt(newMarket[i]?.cost),
-          parseInt(newMarket[i + 1]?.cost)
+          j,
+          parseInt(newMarket[j]?.cost),
+          parseInt(newMarket[j + 1]?.cost)
         );
-        if (parseInt(newMarket[i]?.cost) > parseInt(newMarket[i + 1]?.cost)) {
-          const temp = newMarket[i];
-          newMarket[i] = newMarket[i + 1];
-          newMarket[i + 1] = temp;
+        if (parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost)) {
+          const temp = newMarket[j];
+          newMarket[j] = newMarket[j + 1];
+          newMarket[j + 1] = temp;
           console.log("updated gem order");
-          i = -1;
+          j = -1;
         }
-      } else if (i === 3 && newMarket.length > 4) {
+      } else if (j === 3 && newMarket.length > 4) {
         console.log(
           "relic parseint",
-          parseInt(newMarket[i]?.cost),
-          parseInt(newMarket[i + 1]?.cost)
+          parseInt(newMarket[j]?.cost),
+          parseInt(newMarket[j + 1]?.cost)
         );
-        if (parseInt(newMarket[i]?.cost) > parseInt(newMarket[i + 1]?.cost)) {
-          const temp = newMarket[i];
-          newMarket[i] = newMarket[i + 1];
-          newMarket[i + 1] = temp;
+        if (parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost)) {
+          const temp = newMarket[j];
+          newMarket[j] = newMarket[j + 1];
+          newMarket[j + 1] = temp;
           console.log("updated relic order");
         }
-      } else if (i >= 5 && newMarket.length > 6) {
+      } else if (j >= 5 && newMarket.length > 6) {
         console.log(
           "spellparseints",
-          parseInt(newMarket[i]?.cost) > parseInt(newMarket[i + 1]?.cost),
-          parseInt(newMarket[i]?.cost),
-          parseInt(newMarket[i + 1]?.cost)
+          parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost),
+          parseInt(newMarket[j]?.cost),
+          parseInt(newMarket[j + 1]?.cost)
         );
-        if (parseInt(newMarket[i]?.cost) > parseInt(newMarket[i + 1]?.cost)) {
-          const temp = newMarket[i];
-          newMarket[i] = newMarket[i + 1];
-          newMarket[i + 1] = temp;
+        if (parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost)) {
+          const temp = newMarket[j];
+          newMarket[j] = newMarket[j + 1];
+          newMarket[j + 1] = temp;
           console.log("updated spell order");
-          i = 4;
+          j = 4;
         }
       }
+      console.log("j", j);
     }
+    console.log("reordered market", newMarket)
   };
 
-  return <ImageMap redraw={redraw} />;
+  return ({isLoading} && <ImageMap redraw={redraw} />);
 }
 
 const styles = StyleSheet.create({

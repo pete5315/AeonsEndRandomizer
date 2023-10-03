@@ -38,7 +38,7 @@ const FadeInView = (props, { navigation }) => {
 };
 
 export default function Animation(props) {
-  console.log(props.route.name);
+  console.log("animation props", props.route.name);
   return (
     <FadeInView>
       {props.route.name === "Campaign" && (
