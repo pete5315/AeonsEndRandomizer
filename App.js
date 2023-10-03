@@ -100,10 +100,10 @@ function MyTabs() {
   };
   return (
     <Tab.Navigator {...{ screenOptions, sceneContainerStyle }}>
-      <Tab.Screen name="Campaign" component={Animation} />
-      <Tab.Screen name="Market" component={Animation} />
-      <Tab.Screen name="Cards" component={Animation} />
       <Tab.Screen name="Settings" component={Animation} />
+      <Tab.Screen name="Market" component={Animation} />
+      <Tab.Screen name="Campaign" component={Animation} />
+      <Tab.Screen name="Cards" component={Animation} />
     </Tab.Navigator>
   );
 }

@@ -1,980 +1,163 @@
-[
-  {
-    "name": "Amplify Vision",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/AmplifyVision.jpg?0",
-    "text": "Cast: Focus your closed breach with the lowest focus cost. Deal 2 damage. If all of your breaches are opened, deal 1 additional damage."
-  },
-  {
-    "name": "Arcane Nexus",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ArcaneNexus.jpg?0",
-    "text": "While prepped, once per turn during your main phase you may return a gem you played this turn to your hand. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Chaos Arc",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ChaosArc.jpg?0",
-    "text": "Cast: Deal 3 damage. Deal 2 additional damage for each prepped spell in an adjacent breach."
-  },
-  {
-    "name": "Consuming Void",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ConsumingVoid.jpg?0",
-    "text": "Cast: Destroy up to two cards in hand. Deal 3 damage for each card destroyed in this way."
-  },
-  {
-    "name": "Dark Fire",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/DarkFire.jpg?0",
-    "text": "Cast: Discard up to two cards in hand. Deal 3 damage for each card discarded this way."
-  },
-  {
-    "name": "Essence Theft",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/EssenceTheft.jpg?0",
-    "text": "Cast: Deal 3 damage. You may discard a card in hand. If you do, any player gains 1 life."
-  },
-  {
-    "name": "Feral Lightning",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/FeralLightning.jpg?0",
-    "text": "This spell may be prepped to a closed breach without focusing it. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Ignite",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Ignite.jpg?0",
-    "text": "Cast: Deal 2 damage. Any ally gains 1 charge."
-  },
-  {
-    "name": "Lava Tendril",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/LavaTendril.jpg?0",
-    "text": "While prepped, at the end of your casting phase deal 1 damage. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Oblivion Swell",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/OblivionSwell.jpg?0",
-    "text": "While prepped, once per turn during your main phase you may gain 1$. Cast: Deal 2 damage. You may discard a gem. If you do, deal additional damage equal to its cost."
-  },
-  {
-    "name": "Phoenix Flame",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/PhoenixFlame.jpg?0",
-    "text": "Cast: Deal 2 damage. You may lose 1 charge to deal 2 additional damage."
-  },
-  {
-    "name": "Planar Insight",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/PlanarInsight.jpg?0",
-    "text": "Cast: Deal 2 damage. Deal 1 additional damage for each of your opened breaches."
-  },
-  {
-    "name": "Spectral Echo",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/SpectralEcho.jpg?0",
-    "text": "Cast: Deal 2 damage. You may destroy a card in hand."
-  },
-  {
-    "name": "Wildfire Whip",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/WildfireWhip.jpg?0",
-    "text": "While prepped, during your main phase you may spend 2$ to cast any player's prepped spell. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Combustion",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Combustion.jpg?0",
-    "text": "Cast: Deal 2 damage to a minion. Deal 2 damage to a different minion or the nemesis. Effects that modify damage affect both instances of damage this spell deals."
-  },
-  {
-    "name": "Devouring Shadow",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/DevouringShadow.jpg?0",
-    "text": "While prepped, once per turn during your main phase you may destroy a card in hand. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Disintegrating Scythe",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/DisintegratingScythe.jpg?0",
-    "text": "Cast: Deal 8 damage. Suffer 1 damage. Instead of discarding this, destroy it or place it on top of any player's discard pile."
-  },
-  {
-    "name": "Monstrous Inferno",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/MonstrousInferno.jpg?0",
-    "text": "This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. Cast: Deal 7 damage divided however you choose to the nemesis and any number of minions."
-  },
-  {
-    "name": "Void Bond",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/VoidBond.jpg?0",
-    "text": "Cast: Deal 3 damage. You may cast any player's prepped spell."
-  },
-  {
-    "name": "Blaze",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Blaze.jpg?0",
-    "text": "When you gain this, you may place it on top of any player's discard pile. Cast: Deal 2 damage. Deal 1 additional damage for each other time you have cast Blaze this turn and for each other Blaze you currently have prepped."
-  },
-  {
-    "name": "Radiance",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Radiance.jpg?0",
-    "text": "Cast: Deal 5 damage. Each ally draws a card."
-  },
-  {
-    "name": "Sage's Brand",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/SagesBrand.jpg?0",
-    "text": "This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. While prepped, draw an additional card during your draw phase. Cast: Deal 6 damage."
-  },
-  {
-    "name": "Scrying Bolt",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ScryingBolt.jpg?0",
-    "text": "Cast: Deal 5 damage. You may lose 1 charge. If you do, reveal the top two cards of the nemesis deck. Return them in any order."
-  },
-  {
-    "name": "Aurora",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Aurora.jpg?0",
-    "text": "While prepped, once per turn during your main phase you may gain 1 charge. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Carbonize",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Carbonize.jpg?0",
-    "text": "Cast: Deal 3 damage. Reveal the top card of the turn order deck. You may place that card on the bottom of the turn order deck."
-  },
-  {
-    "name": "Conjure the Lost",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ConjureTheLost.jpg?0",
-    "text": "Cast: Deal 5 damage. You may destroy this. If you do, Gravehold gains 4 life."
-  },
-  {
-    "name": "Celestial Spire",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/CelestialSpire.jpg?0",
-    "text": "Cast: Deal 3 damage. If this card's supply pile is empty, any ally draws a card."
-  },
-  {
-    "name": "Convection Field",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ConvectionField.jpg?0",
-    "text": "Cast: Deal 4 damage. OR Cast: Deal 2 damage. Any ally may destroy a card in hand."
-  },
-  {
-    "name": "Crystallize",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Crystallize.jpg?0",
-    "text": "This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. Cast: Any ally reveals their hand. Deal 2 damage for each gem in that ally's hand."
-  },
-  {
-    "name": "Equilibrium",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Equilibrium.jpg?0",
-    "text": "While prepped, when you suffer damage reduce that damage by 1, to a minimum of 1. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Fiery Torrent",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/FieryTorrent.jpg?0",
-    "text": "Cast: Deal 2 damage. Deal 2 additional damage for each other Fiery Torrent prepped by any player."
-  },
-  {
-    "name": "Jagged Lightning",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/JaggedLightning.jpg?0",
-    "text": "Cast: Deal 3 damage. You may discard a card in hand. If you do, any player focuses their closed breach with the lowest focus cost."
-  },
-  {
-    "name": "Kindle",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Kindle.jpg?0",
-    "text": "While prepped, during your main phase you may also prep one Spark to the breach this spell is prepped to. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Nova Forge",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/NovaForge.jpg?0",
-    "text": "While prepped, once per turn during your main phase you may gain 2$ that can only be used to gain a spell. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Pyrotechnic Surge",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/PyrotechnicSurge.jpg?0",
-    "text": "This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. Cast: Deal 4 damage. You may destroy a card in your discard pile."
-  },
-  {
-    "name": "Reduce to Ash",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ReduceToAsh.jpg?0",
-    "text": "While prepped, at the start of your casting phase reveal the top card of your deck. You may destroy the revealed card. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Thoughtform Familiar",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ThoughtformFamiliar.jpg?0",
-    "text": "Cast: Deal 2 damage. Deal 1 additional damage for each of your other prepped spells."
-  },
-  {
-    "name": "Resonate",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Resonate.jpg?0",
-    "text": "Cast: Deal 4 damage. If there are six or more other cards in your discard pile, deal 3 additional damage."
-  },
-  {
-    "name": "Conflagration",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Conflagration.jpg?0",
-    "text": "Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 2 damage. Gain 1$."
-  },
-  {
-    "name": "Fulminate",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Fulminate.jpg?0",
-    "text": "While prepped, other spells you cast deal 1 additional damage. Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 3 damage."
-  },
-  {
-    "name": "Inner Fire",
-    "cost": "2",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/InnerFire.jpg?0",
-    "text": "Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 1 damage. If the nemesis tier is 2 or higher, deal 1 additional damage."
-  },
-  {
-    "name": "Thermal Dart",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ThermalDart.jpg?0",
-    "text": "Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 3 damage. If this is not the first Thermal Dart you have cast this turn, gain 1 charge."
-  },
-  {
-    "name": "Char",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Char.jpg?0",
-    "text": "Cast: Deal 6 damage. If this damage causes a minion to be discarded, any player gains 2 life."
-  },
-  {
-    "name": "Catalyst",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Catalyst.jpg?0",
-    "text": "Cast: Deal 2 damage. If you have 2 life or less, deal 5 additional damage."
-  },
-  {
-    "name": "Feedback Aura",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/FeedbackAura.jpg?0",
-    "text": "Cast: Deal 3 damage. If you have 4 or more charges, deal 3 additional damage."
-  },
-  {
-    "name": "Nether Conduit",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/NetherConduit.jpg?0",
-    "text": "Cast: Reveal a card in hand that costs 2$ or more. If you do, deal damage equal to the number of cards missing in that card's supply pile. Then, any ally may gain a card from that supply pile. (Gem supply piles start with 7 cards. Relic and spell supply piles start with 5 cards)"
-  },
-  {
-    "name": "Pyromancy",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Pyromancy.jpg?0",
-    "text": "Cast: Deal 1 damage. Allies may collectively discard up to two cards in hand. For each card discarded this way, deal 3 additional damage."
-  },
-  {
-    "name": "Scorch",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Scorch.jpg?0",
-    "text": "Cast: Deal 4 damage. If this damage causes a minion from the nemesis deck to be discarded, any ally gains 2 charges."
-  },
-  {
-    "name": "Blade of Wisdom",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/BladeOfWisdom.jpg?0",
-    "text": "When you gain this, if there are seven or more other cards in your discard pile, gain 2 life. Cast: Deal 5 damage."
-  },
-  {
-    "name": "Burning Current",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/BurningCurrent.jpg?0",
-    "text": "While prepped, during your casting phase you may lose 2 pulse tokens. If you do, spells you cast this turn deal 1 additional damage. Cast: Deal 1 damage. Gain 1 pulse token."
-  },
-  {
-    "name": "Double Tap",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/DoubleTap.jpg?0",
-    "text": "Cast: Deal 1 damage. Deal 1 damage. (Effects that modify damage affect both instances of damage this spell deals.)"
-  },
-  {
-    "name": "Draining Touch",
-    "cost": "2",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/DrainingTouch.jpg?0",
-    "text": "Cast: Deal 1 damage. Gain 1 charge."
-  },
-  {
-    "name": "Flash of Intellect",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/FlashOfIntellect.jpg?0",
-    "text": "Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 3 damage. If there are six or more other cards in your discard pile, you may gain a Flash of Intellect from the supply and place it on top of your deck."
-  },
-  {
-    "name": "Nerve Jab",
-    "cost": "2",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/NerveJab.jpg?0",
-    "text": "Cast: Deal 1 damage. Silence a minion."
-  },
-  {
-    "name": "Precision Shot",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/PrecisionShot.jpg?0",
-    "text": "Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 2 damage. If there are six or more other cards in your discard pile, deal 2 additional damage."
-  },
-  {
-    "name": "Psychic Eruption",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/PsychicEruption.jpg?0",
-    "text": "Cast: Deal damage equal to the number of cards in any player's discard pile."
-  },
-  {
-    "name": "Stunning Force",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/StunningForce.jpg?0",
-    "text": "Cast: Deal 4 damage to the nemesis. Silence a minion."
-  },
-  {
-    "name": "Fire Chakram",
-    "cost": "2",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/FireChakram.jpg?0",
-    "text": "Cast: Deal 2 damage."
-  },
-  {
-    "name": "Warping Haze",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/WarpingHaze.jpg?0",
-    "text": "Cast: Deal 2 damage. If you have two or more other prepped spells, deal 1 additional damage."
-  },
-  {
-    "name": "Incinerating Fist",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/IncineratingFist.jpg?0",
-    "text": "Cast: Deal 3 damage."
-  },
-  {
-    "name": "Gravity Node",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/GravityNode.jpg?0",
-    "text": "Cast: Any player discards a card in hand. If they do, deal 4 damage."
-  },
-  {
-    "name": "Breach Flare",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/BreachFlare.jpg?0",
-    "text": "Cast: Deal 2 damage. Focus any player's III breach."
-  },
-  {
-    "name": "Bending Beam",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/BendingBeam.jpg?0",
-    "text": "Cast: Deal 2 damage. If this spell was cast from an opened III breach, deal 3 additional damage."
-  },
-  {
-    "name": "Starfire Frenzy",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/StarfireFrenzy.jpg?0",
-    "text": "Cast: Deal 4 damage. You may discard a spell in hand. If you do, deal 1 additional damage and gain 1 charge."
-  },
-  {
-    "name": "Force Transfusion",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ForceTransfusion.jpg?0",
-    "text": "Cast: Deal 3 damage. If you have 3 or more charges, gain 1 charge."
-  },
-  {
-    "name": "Arcane Salvo",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ArcaneSalvo.jpg?0",
-    "text": "While prepped, once per turn during your main phase you may place a relic you played this turn or a relic in your discard pile on top of your deck. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Breach Collision",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/BreachCollision.jpg?0",
-    "text": "When you gain this, you may place it on top of any player's discard pile. Cast: Deal 5 damage. Gravehold gains 1 life."
-  },
-  {
-    "name": "Pyro Geist",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/PyroGeist.jpg?0",
-    "text": "When you prep this, deal 1 damage. Cast: Deal 1 damage. Deal 2 damage."
-  },
-  {
-    "name": "Breach Communion",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/BreachCommunion.jpg?0",
-    "text": "While prepped, once per turn during your main phase you may gain 1 pulse token. Cast: Deal 2 damage. You may lose 2 pulse tokens. If you do, deal 3 additional damage."
-  },
-  {
-    "name": "Sparking Siphon",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/SparkingSiphon.jpg?0",
-    "text": "When you gain this, gain 2 pulse tokens. Cast: Deal 2 damage. You may lose 1 pulse token. If you do, any player gains 1 life."
-  },
-  {
-    "name": "Thunderous Oath",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ThunderousOath.jpg?0",
-    "text": "Cast: Deal 6 damage. Gain 1 pulse token. You may lose any number of pulse tokens. If you do, any ally draws cards equal to the number of pulse tokens lost this way."
-  },
-  {
-    "name": "Fiery Conclusion",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/FieryConclusion.jpg?0",
-    "text": "Cast: Deal 4 damage. If there are three or more empty supply piles, deal 3 additional damage."
-  },
-  {
-    "name": "Sphere of Inversion",
-    "cost": "9",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/SphereOfInversion.jpg?0",
-    "text": "Cast: Deal 7 damage. Any ally may destroy a card in hand. If they do, they gain 2 life."
-  },
-  {
-    "name": "Tethered Darts",
-    "cost": "3",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/b/b1/Tethered_Darts.jpg",
-    "text": "Cast: Deal 2 damage. If this was cast from an opened III or IV breach, you may place this into any ally's hand."
-  },
-  {
-    "name": "Force Amplifier",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/1/12/Force_Amplifier.jpg",
-    "text": "Cast: Deal 3 damage. If this was cast from an opened III or IV breach, deal 1 additional damage."
-  },
-  {
-    "name": "Imbued Smash",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/d/db/Imbued_Smash.jpg",
-    "text": "Cast: Deal 4 damage. You may discard a card in hand. If you do, deal 2 damage to the nemesis. (Effects that modify damage affect both instances of damage.)"
-  },
-  {
-    "name": "Patterned Strike",
-    "cost": "7",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/b/b8/Patterned_Strike.jpg",
-    "text": "Cast: Deal 4 damage. You may return to your hand up to two cards in your discard pile that cost 0$."
-  },
-  {
-    "name": "Spirit Lift",
-    "cost": "8",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/48/Spirit_Lift.jpg",
-    "text": "While prepped, once during your turn when you gain a charge, any ally gains 2 charges. Cast: Deal 5 damage."
-  },
-  {
-    "name": "Fatal Harmony",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/7/7a/Fatal_Harmony.jpg",
-    "text": "Cast: Deal 4 damage. Any ally may discard a Fatal Harmony in hand and draw a card. If they do, deal 3 damage. (Effects that modify damage affect both instances of damage.)"
-  },
-  {
-    "name": "Bouncing Boom",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/3/3f/Bouncing_Boom.jpg",
-    "text": "Echo Cast: Deal 2 damage."
-  },
-  {
-    "name": "Reverberating Shock",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/1/19/Reverberating_Shock.jpg",
-    "text": "Echo Cast: Deal 1 damage. Gain 1$ that can only be used to gain cards."
-  },
-  {
-    "name": "Deluge of Power",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/42/Deluge_of_Power.jpg",
-    "text": "Cast: Deal 4 damage. Any ally may discard up to two cards in hand. They draw a card for each card discarded this way."
-  },
-  {
-    "name": "Wound Mender",
-    "cost": "8",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/d/d2/Wound_Mender.jpg",
-    "text": "Echo Cast: Deal 2 damage. If this was cast from an opened III or IV breach, gain 1 life."
-  },
-  {
-    "name": "Breach Seeker",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/41/Breach_Seeker.jpg",
-    "text": "Echo Cast: Deal 1 damage. Focus any ally's breach."
-  },
-  {
-    "name": "Crescendo Ray",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/b/bf/Crescendo_Ray.jpg",
-    "text": "Cast: Deal 3 damage. Gain 1$ for each other spell you have prepped."
-  },
-  {
-    "name": "Storm Vapors",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/b/b9/Storm_Vapors.jpg",
-    "text": "Cast: Deal 3 damage. If there is another Storm Vapors in any player's discard pile, focus any player's breach."
-  },
-  {
-    "name": "Mantra of Strength",
-    "cost": "3",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/4b/Mantra_of_Strength.jpg",
-    "text": "Cast: Any player focuses their closed breach with the highest focus cost. Deal 1 damage. You may destroy this. If you do, deal 2 additional damage."
-  },
-  {
-    "name": "Embody Flame",
-    "cost": "7",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/ac/Embody_Flame.jpg",
-    "text": "Cast: Deal 5 damage. You may destroy a card in this card's supply pile. If you do deal 3 additional damage."
-  },
-  {
-    "name": "Snap Ritual",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/d/df/Snap_Ritual.jpg",
-    "text": "While prepped once per turn during your main phase, you may discard a card in hand to deal 2 damage. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Dual Flash",
-    "cost": "3",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/0/06/Dual_Flash.jpg",
-    "text": "Cast: Deal 2 damage. If this is the first time you have cast Dual Flash during your casting phase this turn, you may cast any player's prepped Dual Flash without discarding it."
-  },
-  {
-    "name": "Dust Caller",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/1/16/Dust_Caller.jpg",
-    "text": "Cast: Deal 4 damage. Any ally returns a card that costs 0$ from their discard pile to their hand."
-  },
-  {
-    "name": "Symbiotic Synapse",
-    "cost": "7",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/0/07/Symbiotic_Synapse.jpg",
-    "text": "If there is another Symbiotic Synapse in any player's discard pile, this gains Echo. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Fortified Frost",
-    "cost": "2",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/1/14/Fortified_Frost.jpg",
-    "text": "Cast: Deal 2 damage. You may discard a card in hand. If you do, deal 1 addtional damage."
-  },
-  {
-    "name": "Twisted Fang",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/0/09/Twisted_Fang.jpg",
-    "text": "Cast: Deal 3 damage. If this card's supply pile is empty, deal 1 additional damage."
-  },
-  {
-    "name": "Lightning Arrow",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/4f/Lightning_Arrow.jpg",
-    "text": "Cast: Deal 3 damage. You may discard a card in hand. If you do, Gravehold gains 1 life."
-  },
-  {
-    "name": "Tornado of Insight",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/0/04/Tornado_of_Insight.jpg",
-    "text": "Cast: Deal 5 damage. If you have no closed breaches, gain 1 charge."
-  },
-  {
-    "name": "Infused Ignition",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/7/76/Infused_Ignition.jpg",
-    "text": "Cast: Deal 3 damage. If Xaxos: Outcast has 4 or less charges, he gains 1 charge."
-  },
-  {
-    "name": "Paired Storm",
-    "cost": "3",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/2/28/Paired_Storm.jpg",
-    "text": "Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 2 damage. If this is the second time you have cast a Paired Storm this turn, deal 2 additional damage."
-  },
-  {
-    "name": "Arcane Relay",
-    "cost": "8",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/4a/Arcane_Relay.jpg",
-    "text": "Cast: Any ally draws a card and then reveals their hand. Deal 4 damage. Deal 1 additional damage for each card in that ally's hand that costs 1$ or more."
-  },
-  {
-    "name": "Radiant Conflux",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/c/c5/Radiant_Conflux.jpg",
-    "text": "Cast: Deal 3 damage. Any ally may draw a card and then discard a card in hand. "
-  },
-  {
-    "name": "Shattering Bolt",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/a6/Shattering_Bolt.jpg",
-    "text": "Cast: Deal 2 damage. You may destroy a card in your hand. OR Cast: Discard a gem in hand. If you do, deal 4 damage."
-  },
-  {
-    "name": "Unstable Rift",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/3/3b/Unstable_Rift.jpg",
-    "text": "While prepped, at the end of your casting phase deal 1 damage and gain 1$. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Gathered Will",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/b/b2/Gathered_Will.jpg",
-    "text": "Cast: Deal 2 damage. You may gain a spell from any supply pile that costs 4$ or less and place it on top of your deck."
-  },
-  {
-    "name": "Hasted Intellect",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/7/76/Hasted_Intellect.jpg",
-    "text": "While prepped, when you gain a card, you may place that card on top of your deck. Cast: Deal 4 damage. "
-  },
-  {
-    "name": "Swarm of Flame",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/e/eb/Swarm_of_Flame.jpg",
-    "text": "Cast: Deal 5 damage. You may cast any player's prepped spell that costs 5$ or less."
-  },
-  {
-    "name": "Dizzying Burst",
-    "cost": "8",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/a6/Dizzying_Burst.jpg",
-    "text": "Cast: Deal 6 damage. Reveal the turn order deck. Return it in any order."
-  },
-  {
-    "name": "Cleanse",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/b/b8/Cleanse.jpg",
-    "text": "Cast: Deal 3 damage. If you have 3 or less life, gain 1 life."
-  },
-  {
-    "name": "Memory Break",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/c/c3/Memory_Break.jpg",
-    "text": "Cast: Deal 3 damage. You may destroy a card in hand. If you do, deal additional damage equal to the cost of the destroyed card."
-  },
-  {
-    "name": "Flame Jab",
-    "cost": "1",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/2/2f/Flame_Jab.jpg",
-    "text": "Cast: Deal 2 damage to a minion. You may destroy this. If you do, gain 1$."
-  },
-  {
-    "name": "Gathering Winds",
-    "cost": "3",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/9/90/Gathering_Winds.jpg",
-    "text": "Cast: Deal 2 damage. If there are six or more other cards in your discard pile, focus any player's breach."
-  },
-  {
-    "name": "Cinder Shower",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/ae/Cinder_Shower.jpg",
-    "text": "While prepped, when you gain a card, deal 1 damage. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Reaper's Flame",
-    "cost": "7",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/c/c9/Reaper%27s_Flame.jpg",
-    "text": "While prepped, once per turn when you cast another spell, you may gain a card that costs 5$ or less from any supply pile. Cast: Deal 5 damage."
-  },
-  {
-    "name": "Erasure of Mind",
-    "cost": "7",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/e/e9/Erasure_of_Mind.jpg",
-    "text": "Cast: Destroy a card in hand that costs 3$ or more. If you do, deal 10 damage. OR Cast: Deal 5 damage. Reveal the top two cards of your deck and place any number on top of your discard pile."
-  },
-  {
-    "name": "Aether Ripple",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/AetherRipple.jpg?0",
-    "text": "Cast: Deal 2 damage. Each ally gains an aether token."
-  },
-  {
-    "name": "Douse",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Douse.jpg?0",
-    "text": "Cast: Deal 3 damage. You may destroy this. If you do, remove a fire token from your location on the map."
-  },
-  {
-    "name": "Backfire",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Backfire.jpg?0",
-    "text": "Cast: Deal 4 damage. You may lose 1 charge to return this to your hand."
-  },
-  {
-    "name": "Paradigm Flux",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ParadigmFlux.jpg?0",
-    "text": "Cast: Remove up to 2 shield tokens from minions. Deal 5 damage."
-  },
-  {
-    "name": "Entwined Tremor",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/EntwinedTremor.jpg?0",
-    "text": "Cast: Deal 6 damage. If there is a spell that costs 5$ or more prepped to an adjacent breach, this deals 2 additional damage. If there is a spell that costs 4$ or less prepped to an adjacent breach, gain 1 charge."
-  },
-  {
-    "name": "Galvanize",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Galvanize.jpg?0",
-    "text": "While prepped, once during your main phase, you may Conjure. Cast: Deal 2 damage."
-  },
-  {
-    "name": "Temporal Strike",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/TemporalStrike.jpg?0",
-    "text": "While prepped, when you cast a spell that costs 2$ or less, it deals 1 additional damage and you may return it to your hand. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Parallel Self",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ParallelSelf.jpg?0",
-    "text": "Cast: Deal 5 damage. Recall: Spend 2$ to deal 2 damage."
-  },
-  {
-    "name": "Magnetic Burst",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/MagneticBurst.jpg?0",
-    "text": "Cast: Deal 3 damage. You may reveal the top two cards of you deck and place any number of those cards on top of your discard pile."
-  },
-  {
-    "name": "Grassblade",
-    "cost": "2",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Grassblade.jpg?0",
-    "text": "You may destroy this from your hand during any ally's main phase. If you do, draw a card. Cast: Deal 2 damage."
-  },
-  {
-    "name": "Fractured Lightning",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/FracturedLightning.jpg?0",
-    "text": "Overheat 3 Cast: Deal 5 damage. Reveal the top card of the nemesis deck. If it is an attack or power, overheat this card. If this card is fully overheated, destroy it and the nemesis Unleashes."
-  },
-  {
-    "name": "Cascade",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Cascade.jpg?0",
-    "text": "Cast: Deal 3 damage. You may return a card that costs 4$ or less from your discard pile to your hand."
-  },
-  {
-    "name": "Rainbow Surge",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/RainbowSurge.jpg?0",
-    "text": "Cast: Deal 5 damage. If this causes a minion to be discarded, boost this. Gain 1 life for each boost mark on this."
-  },
-  {
-    "name": "Quicksilver Bolt",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/QuicksilverBolt.jpg?0",
-    "text": "Boost 2 You may prep this spell to one of your opened breaches during any ally's main phase. When you prep this during your main phase, boost this. Cast: Deal 3 damage. If this is fully boosted, it deals 1 additional damage."
-  },
-  {
-    "name": "Volcanic Shrapnel",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/VolcanicShrapnel.jpg?0",
-    "text": "Cast: Deal 1 damage. Deal 1 damage. Deal 1 damage. You may return to your hand up to two card from your discard pile that cost 0$."
-  },
-  {
-    "name": "Flamequake",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Flamequake.jpg?0",
-    "text": "Cast: Deal 5 damage. Recall: Lose 2 charges to remove a fire token from your location on the map."
-  },
-  {
-    "name": "Crystal Carapace",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/CrystalCarapace.jpg?0",
-    "text": "Cast: Deal 4 damage. When another card or effect would cause you to discard or destroy this, you may return this to your hand. If it was prepped, you may prep it. (Ignore this effect while this card is in the supply.)"
-  },
-  {
-    "name": "Evaporating Ray",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/EvaporatingRay.jpg?0",
-    "text": "Cast: Deal 3 damage. Any ally may discard a card in hand that costs 2$ or more. If they do, this deals an additional 2 damage."
-  },
-  {
-    "name": "Magnify",
-    "cost": "2",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Magnify.jpg?0",
-    "text": "While prepped, an additional spell that costs 2$ or less may be prepped to this breach. Cast: Deal 1 damage."
-  },
-  {
-    "name": "Dawn Barrage",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/DawnBarrage.jpg?0",
-    "text": "Cast: Deal 1 damage. Other spells you cast during your casting phase this turn deal an additional 1 damage."
-  },
-  {
-    "name": "Stupefy",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Stupefy.jpg?0",
-    "text": "Cast: Deal 2 damage. Recall: You may discard a card to silence a minion."
-  },
-  {
-    "name": "Force Bubble",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ForceBubble.jpg?0",
-    "text": "Cast: Deal 2 damage. OR Cast: Return this to your hand. You may prep a spell from your hand that is not named Force Bubble."
-  },
-  {
-    "name": "Accelerating Field",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/AcceleratingField.jpg?0",
-    "text": "Cast: Deal 3 damage. If this is the first time you have cast an Accelerating Field this turn, you may reveal the top four cards of your deck. You may place any cards named Accelerating Field revealed this way into your hand."
-  },
-  {
-    "name": "Harmonize",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Harmonize.jpg?0",
-    "text": "You may discard this card from your hand when any ally casts a spell to have that spell deal an additional 2 damage. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Phantasmagoria",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Phantasmagoria.jpg?0",
-    "text": "Cast: Deal 3 damage. Recall: Conjure."
-  },
-  {
-    "name": "Rune Tutor",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/RuneTutor.jpg?0",
-    "text": "Cast: Gain a card that costs 6$ or less from any supply pile and place it on top of your deck. OR Cast: Deal 4 damage."
-  },
-  {
-    "name": "Bestowing Light",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/BestowingLight.jpg?0",
-    "text": "Cast: Deal 5 damage. Any ally gains an aether token for each spell prepped in an adjacent breach."
-  },
-  {
-    "name": "Reverse Gravity",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ReverseGravity.jpg?0",
-    "text": "Cast: Deal 6 damage. When this is placed into your discard pile, you may place this on the bottom of your discard pile."
-  },
-  {
-    "name": "Seer's Wrath",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/SeersWrath.jpg?0",
-    "text": "Develop Cost 3$. When you Develop this, look at the top card of the turn order deck. You may place that card on the bottom or top of the turn order deck. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Tethered Smite",
-    "cost": "7",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/TetheredSmite.jpg?0",
-    "text": "Develop Cost 4$. Cast: Deal 5 damage divided however you choose to the nemesis and any number of minions."
-  },
-  {
-    "name": "Building Storm",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/BuildingStorm.jpg?0",
-    "text": "Develop Cost 2$. Cast: Deal 2 damage. Deal 1 additional damage for every copy of this card in the Develop zone."
-  },
-  {
-    "name": "Thistle Spear",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ThistleSpear.jpg?0",
-    "text": "Develop Cost 5$. Cast: Deal 5 damage. Any ally may gain a card from the Develop zone and place it into their hand."
-  },
-  {
-    "name": "Consume Magic",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ConsumeMagic.jpg?0",
-    "text": "Cast: Deal 3 damage. If this defeats a minion from the nemesis deck, swap this card for Detonate."
-  },
-  {
-    "name": "Prismatic Flare",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/PrismaticFlare.jpg?0",
-    "text": "When you prep this, focus your III breach. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Cavernous Maw",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/CavernousMaw.jpg?0",
-    "text": "Cast: Deal 2 damage. You may destroy a card in your discard pile that costs 4$ or more. If you do, swap this card for Dragonflare and place it on top of your deck."
-  },
-  {
-    "name": "Harbinger Descent",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/HarbingerDescent.jpg?0",
-    "text": "Cast: Deal 6 damage. You may discard three of your other prepped spells to swap this card for Apocalypse."
-  },
-  {
-    "name": "Reflecting Current",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ReflectingCurrent.jpg?0",
-    "text": "While prepped, when you prep another spell, gain 1$. Cast: Deal 4 damage."
-  },
-  {
-    "name": "Lashing Sinew",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/LashingSinew.jpg?0",
-    "text": "When you prep this, draw an additional card at the end of this turn. Cast: Deal 2 damage."
-  },
-  {
-    "name": "Propel",
-    "cost": "5",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Propel.jpg?0",
-    "text": "Cast: Deal 4 damage. If you placed this into your discard pile, swap this card for Gather Force."
-  },
-  {
-    "name": "Starfall",
-    "cost": "6",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Starfall.jpg?0",
-    "text": "Cast: Deal 3 damage. Reveal the top three cards of your deck. You may prep a spell not named Starfall that is revealed this way."
-  },
-  {
-    "name": "Drown in Flames",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/a5/Drown_in_Flames.jpg",
-    "text": "Cast: Deal 4 damage to a minion or the nemesis. You may lose 2 charges. If you do, repeat this. (Effects that modify damage affect each instance of damage this spell deals)"
-  },
-  {
-    "name": "Thieving Spirit",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/5/5b/Thieving_Spirit.jpg",
-    "text": "Cast: Deal 4 damage. Gain 1$."
-  },
-  {
-    "name": "Fleeting Vision",
-    "cost": "3",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/6/6f/Fleeting_Vision.jpg",
-    "text": "Cast: Deal 2 damage. Each player may reveal the top two cards of their deck and may discard any of those cards."
-  },
-  {
-    "name": "Splinter Missile",
-    "cost": "5",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/5/51/Splinter_Missile.jpg",
-    "text": "Cast: Deal 4 damage. Any ally may discard a card in hand. If they do, divide this damage however you choose among the nemesis and any number of minions."
-  },
-  {
-    "name": "Illuminating Flame",
-    "cost": "6",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/1/10/Illuminating_Flame.jpg",
-    "text": "Cast: Deal 5 damage. If this was cast from an opened III or IV breach, you may destroy this. If you do, gain 3 charges."
-  },
-  {
-    "name": "Chronal Arc",
-    "cost": "7",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/9/99/Chronal_Arc.jpg",
-    "text": "This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. Cast: Deal 4 damage. You may place this card into your hand."
-  },
-  {
-    "name": "Force Catalyst",
-    "cost": "4",
-    "image": "https://static.wikia.nocookie.net/aeonsend/images/7/78/Force_Catalyst.jpg",
-    "text": "While prepped, during your main phase you may spend 3$ to cast any player's prepped spell. Cast: Deal 3 damage."
-  },
-  {
-    "name": "Parasitic Force",
-    "cost": "8",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ParasiticForce.jpg?0",
-    "text": "You may prep this to any player's opened breach. Cast: Deal 6 damage. You may destroy up to two cards in your hand or discard pile."
-  },
-  {
-    "name": "Glass Sword",
-    "cost": "3",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/GlassSword.jpg?0",
-    "text": ""
-  },
-  {
-    "name": "Unstable Surge",
-    "cost": "4",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/UnstableSurge.jpg?0",
-    "text": ""
-  }
+[																											
+{"name":"Amplify Vision", "cost":"4", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/AmplifyVision.jpg?0", "text":"Cast: Focus your closed breach with the lowest focus cost. Deal 2 damage. If all of your breaches are opened, deal 1 additional damage."},																	
+{"name":"Arcane Nexus", "cost":"7", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ArcaneNexus.jpg?0", "text":"While prepped, once per turn during your main phase you may return a gem you played this turn to your hand. Cast: Deal 4 damage."},																	
+{"name":"Chaos Arc", "cost":"6", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ChaosArc.jpg?0", "text":"Cast: Deal 3 damage. Deal 2 additional damage for each prepped spell in an adjacent breach."},																	
+{"name":"Consuming Void", "cost":"7", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ConsumingVoid.jpg?0", "text":"Cast: Destroy up to two cards in hand. Deal 3 damage for each card destroyed in this way."},																	
+{"name":"Dark Fire", "cost":"5", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/DarkFire.jpg?0", "text":"Cast: Discard up to two cards in hand. Deal 3 damage for each card discarded this way."},																	
+{"name":"Essence Theft", "cost":"5", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/EssenceTheft.jpg?0", "text":"Cast: Deal 3 damage. You may discard a card in hand. If you do, any player gains 1 life."},																	
+{"name":"Feral Lightning", "cost":"5", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/FeralLightning.jpg?0", "text":"This spell may be prepped to a closed breach without focusing it. Cast: Deal 3 damage."},																	
+{"name":"Ignite", "cost":"4", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Ignite.jpg?0", "text":"Cast: Deal 2 damage. Any ally gains 1 charge."},																	
+{"name":"Lava Tendril", "cost":"4", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/LavaTendril.jpg?0", "text":"While prepped, at the end of your casting phase deal 1 damage. Cast: Deal 3 damage."},																	
+{"name":"Oblivion Swell", "cost":"5", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/OblivionSwell.jpg?0", "text":"While prepped, once per turn during your main phase you may gain 1$. Cast: Deal 2 damage. You may discard a gem. If you do, deal additional damage equal to its cost."},																	
+{"name":"Phoenix Flame", "cost":"3", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/PhoenixFlame.jpg?0", "text":"Cast: Deal 2 damage. You may lose 1 charge to deal 2 additional damage."},																	
+{"name":"Planar Insight", "cost":"6", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/PlanarInsight.jpg?0", "text":"Cast: Deal 2 damage. Deal 1 additional damage for each of your opened breaches."},																	
+{"name":"Spectral Echo", "cost":"3", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/SpectralEcho.jpg?0", "text":"Cast: Deal 2 damage. You may destroy a card in hand."},																	
+{"name":"Wildfire Whip", "cost":"6", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/WildfireWhip.jpg?0", "text":"While prepped, during your main phase you may spend 2$ to cast any player's prepped spell. Cast: Deal 4 damage."},																	
+{"name":"Combustion", "cost":"5", "set":"D", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Combustion.jpg?0", "text":"Cast: Deal 2 damage to a minion. Deal 2 damage to a different minion or the nemesis. Effects that modify damage affect both instances of damage this spell deals."},																	
+{"name":"Devouring Shadow", "cost":"6", "set":"D", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/DevouringShadow.jpg?0", "text":"While prepped, once per turn during your main phase you may destroy a card in hand. Cast: Deal 3 damage."},																	
+{"name":"Disintegrating Scythe", "cost":"7", "set":"D", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/DisintegratingScythe.jpg?0", "text":"Cast: Deal 8 damage. Suffer 1 damage. Instead of discarding this, destroy it or place it on top of any player's discard pile."},																	
+{"name":"Monstrous Inferno", "cost":"8", "set":"D", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/MonstrousInferno.jpg?0", "text":"This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. Cast: Deal 7 damage divided however you choose to the nemesis and any number of minions."},																	
+{"name":"Void Bond", "cost":"4", "set":"D", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/VoidBond.jpg?0", "text":"Cast: Deal 3 damage. You may cast any player's prepped spell."},																	
+{"name":"Blaze", "cost":"4", "set":"N", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Blaze.jpg?0", "text":"When you gain this, you may place it on top of any player's discard pile. Cast: Deal 2 damage. Deal 1 additional damage for each other time you have cast Blaze this turn and for each other Blaze you currently have prepped."},																	
+{"name":"Radiance", "cost":"8", "set":"N", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Radiance.jpg?0", "text":"Cast: Deal 5 damage. Each ally draws a card."},																	
+{"name":"Sage's Brand", "cost":"7", "set":"N", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/SagesBrand.jpg?0", "text":"This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. While prepped, draw an additional card during your draw phase. Cast: Deal 6 damage."},																	
+{"name":"Scrying Bolt", "cost":"6", "set":"N", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ScryingBolt.jpg?0", "text":"Cast: Deal 5 damage. You may lose 1 charge. If you do, reveal the top two cards of the nemesis deck. Return them in any order."},																	
+{"name":"Aurora", "cost":"5", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Aurora.jpg?0", "text":"While prepped, once per turn during your main phase you may gain 1 charge. Cast: Deal 3 damage."},																	
+{"name":"Carbonize", "cost":"4", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Carbonize.jpg?0", "text":"Cast: Deal 3 damage. Reveal the top card of the turn order deck. You may place that card on the bottom of the turn order deck."},																	
+{"name":"Conjure the Lost", "cost":"6", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ConjureTheLost.jpg?0", "text":"Cast: Deal 5 damage. You may destroy this. If you do, Gravehold gains 4 life."},																	
+{"name":"Celestial Spire", "cost":"5", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/CelestialSpire.jpg?0", "text":"Cast: Deal 3 damage. If this card's supply pile is empty, any ally draws a card."},																	
+{"name":"Convection Field", "cost":"5", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ConvectionField.jpg?0", "text":"Cast: Deal 4 damage. OR Cast: Deal 2 damage. Any ally may destroy a card in hand."},																	
+{"name":"Crystallize", "cost":"8", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Crystallize.jpg?0", "text":"This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. Cast: Any ally reveals their hand. Deal 2 damage for each gem in that ally's hand."},																	
+{"name":"Equilibrium", "cost":"7", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Equilibrium.jpg?0", "text":"While prepped, when you suffer damage reduce that damage by 1, to a minimum of 1. Cast: Deal 4 damage."},																	
+{"name":"Fiery Torrent", "cost":"5", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/FieryTorrent.jpg?0", "text":"Cast: Deal 2 damage. Deal 2 additional damage for each other Fiery Torrent prepped by any player."},																	
+{"name":"Jagged Lightning", "cost":"4", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/JaggedLightning.jpg?0", "text":"Cast: Deal 3 damage. You may discard a card in hand. If you do, any player focuses their closed breach with the lowest focus cost."},																	
+{"name":"Kindle", "cost":"4", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Kindle.jpg?0", "text":"While prepped, during your main phase you may also prep one Spark to the breach this spell is prepped to. Cast: Deal 3 damage."},																	
+{"name":"Nova Forge", "cost":"6", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/NovaForge.jpg?0", "text":"While prepped, once per turn during your main phase you may gain 2$ that can only be used to gain a spell. Cast: Deal 4 damage."},																	
+{"name":"Pyrotechnic Surge", "cost":"4", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/PyrotechnicSurge.jpg?0", "text":"This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. Cast: Deal 4 damage. You may destroy a card in your discard pile."},																	
+{"name":"Reduce to Ash", "cost":"7", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ReduceToAsh.jpg?0", "text":"While prepped, at the start of your casting phase reveal the top card of your deck. You may destroy the revealed card. Cast: Deal 4 damage."},																	
+{"name":"Thoughtform Familiar", "cost":"3", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ThoughtformFamiliar.jpg?0", "text":"Cast: Deal 2 damage. Deal 1 additional damage for each of your other prepped spells."},																	
+{"name":"Resonate", "cost":"6", "set":"V", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Resonate.jpg?0", "text":"Cast: Deal 4 damage. If there are six or more other cards in your discard pile, deal 3 additional damage."},																	
+{"name":"Conflagration", "cost":"3", "set":"V", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Conflagration.jpg?0", "text":"Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 2 damage. Gain 1$."},																	
+{"name":"Fulminate", "cost":"5", "set":"V", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Fulminate.jpg?0", "text":"While prepped, other spells you cast deal 1 additional damage. Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 3 damage."},																	
+{"name":"Inner Fire", "cost":"2", "set":"V", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/InnerFire.jpg?0", "text":"Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 1 damage. If the nemesis tier is 2 or higher, deal 1 additional damage."},																	
+{"name":"Thermal Dart", "cost":"4", "set":"V", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ThermalDart.jpg?0", "text":"Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 3 damage. If this is not the first Thermal Dart you have cast this turn, gain 1 charge."},																	
+{"name":"Char", "cost":"8", "set":"OD", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Char.jpg?0", "text":"Cast: Deal 6 damage. If this damage causes a minion to be discarded, any player gains 2 life."},																	
+{"name":"Catalyst", "cost":"6", "set":"OD", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Catalyst.jpg?0", "text":"Cast: Deal 2 damage. If you have 2 life or less, deal 5 additional damage."},																	
+{"name":"Feedback Aura", "cost":"5", "set":"OD", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/FeedbackAura.jpg?0", "text":"Cast: Deal 3 damage. If you have 4 or more charges, deal 3 additional damage."},																	
+{"name":"Nether Conduit", "cost":"7", "set":"OD", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/NetherConduit.jpg?0", "text":"Cast: Reveal a card in hand that costs 2$ or more. If you do, deal damage equal to the number of cards missing in that card's supply pile. Then, any ally may gain a card from that supply pile. (Gem supply piles start with 7 cards. Relic and spell supply piles start with 5 cards)"},																	
+{"name":"Pyromancy", "cost":"7", "set":"OD", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Pyromancy.jpg?0", "text":"Cast: Deal 1 damage. Allies may collectively discard up to two cards in hand. For each card discarded this way, deal 3 additional damage."},																	
+{"name":"Scorch", "cost":"5", "set":"OD", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Scorch.jpg?0", "text":"Cast: Deal 4 damage. If this damage causes a minion from the nemesis deck to be discarded, any ally gains 2 charges."},																	
+{"name":"Blade of Wisdom", "cost":"6", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/BladeOfWisdom.jpg?0", "text":"When you gain this, if there are seven or more other cards in your discard pile, gain 2 life. Cast: Deal 5 damage."},																	
+{"name":"Burning Current", "cost":"3", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/BurningCurrent.jpg?0", "text":"While prepped, during your casting phase you may lose 2 pulse tokens. If you do, spells you cast this turn deal 1 additional damage. Cast: Deal 1 damage. Gain 1 pulse token."},																	
+{"name":"Double Tap", "cost":"3", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/DoubleTap.jpg?0", "text":"Cast: Deal 1 damage. Deal 1 damage. (Effects that modify damage affect both instances of damage this spell deals.)"},																	
+{"name":"Draining Touch", "cost":"2", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/DrainingTouch.jpg?0", "text":"Cast: Deal 1 damage. Gain 1 charge."},																	
+{"name":"Flash of Intellect", "cost":"4", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/FlashOfIntellect.jpg?0", "text":"Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 3 damage. If there are six or more other cards in your discard pile, you may gain a Flash of Intellect from the supply and place it on top of your deck."},																	
+{"name":"Nerve Jab", "cost":"2", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/NerveJab.jpg?0", "text":"Cast: Deal 1 damage. Silence a minion."},																	
+{"name":"Precision Shot", "cost":"3", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/PrecisionShot.jpg?0", "text":"Link (Two spells with Link may be prepped to the same breach.) Cast: Deal 2 damage. If there are six or more other cards in your discard pile, deal 2 additional damage."},																	
+{"name":"Psychic Eruption", "cost":"8", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/PsychicEruption.jpg?0", "text":"Cast: Deal damage equal to the number of cards in any player's discard pile."},																	
+{"name":"Stunning Force", "cost":"5", "set":"BS", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/StunningForce.jpg?0", "text":"Cast: Deal 4 damage to the nemesis. Silence a minion."},																	
+{"name":"Fire Chakram", "cost":"2", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/FireChakram.jpg?0", "text":"Cast: Deal 2 damage."},																	
+{"name":"Warping Haze", "cost":"3", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/WarpingHaze.jpg?0", "text":"Cast: Deal 2 damage. If you have two or more other prepped spells, deal 1 additional damage."},																	
+{"name":"Incinerating Fist", "cost":"4", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/IncineratingFist.jpg?0", "text":"Cast: Deal 3 damage."},																	
+{"name":"Gravity Node", "cost":"5", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/GravityNode.jpg?0", "text":"Cast: Any player discards a card in hand. If they do, deal 4 damage."},																	
+{"name":"Breach Flare", "cost":"3", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/BreachFlare.jpg?0", "text":"Cast: Deal 2 damage. Focus any player's III breach."},																	
+{"name":"Bending Beam", "cost":"5", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/BendingBeam.jpg?0", "text":"Cast: Deal 2 damage. If this spell was cast from an opened III breach, deal 3 additional damage."},																	
+{"name":"Starfire Frenzy", "cost":"6", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/StarfireFrenzy.jpg?0", "text":"Cast: Deal 4 damage. You may discard a spell in hand. If you do, deal 1 additional damage and gain 1 charge."},																	
+{"name":"Force Transfusion", "cost":"4", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ForceTransfusion.jpg?0", "text":"Cast: Deal 3 damage. If you have 3 or more charges, gain 1 charge."},																	
+{"name":"Arcane Salvo", "cost":"5", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ArcaneSalvo.jpg?0", "text":"While prepped, once per turn during your main phase you may place a relic you played this turn or a relic in your discard pile on top of your deck. Cast: Deal 4 damage."},																	
+{"name":"Breach Collision", "cost":"7", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/BreachCollision.jpg?0", "text":"When you gain this, you may place it on top of any player's discard pile. Cast: Deal 5 damage. Gravehold gains 1 life."},																	
+{"name":"Pyro Geist", "cost":"6", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/PyroGeist.jpg?0", "text":"When you prep this, deal 1 damage. Cast: Deal 1 damage. Deal 2 damage."},																	
+{"name":"Breach Communion", "cost":"4", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/BreachCommunion.jpg?0", "text":"While prepped, once per turn during your main phase you may gain 1 pulse token. Cast: Deal 2 damage. You may lose 2 pulse tokens. If you do, deal 3 additional damage."},																	
+{"name":"Sparking Siphon", "cost":"3", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/SparkingSiphon.jpg?0", "text":"When you gain this, gain 2 pulse tokens. Cast: Deal 2 damage. You may lose 1 pulse token. If you do, any player gains 1 life."},																	
+{"name":"Thunderous Oath", "cost":"8", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ThunderousOath.jpg?0", "text":"Cast: Deal 6 damage. Gain 1 pulse token. You may lose any number of pulse tokens. If you do, any ally draws cards equal to the number of pulse tokens lost this way."},																	
+{"name":"Fiery Conclusion", "cost":"5", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/FieryConclusion.jpg?0", "text":"Cast: Deal 4 damage. If there are three or more empty supply piles, deal 3 additional damage."},																	
+{"name":"Sphere of Inversion", "cost":"9", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/SphereOfInversion.jpg?0", "text":"Cast: Deal 7 damage. Any ally may destroy a card in hand. If they do, they gain 2 life."},																	
+{"name":"Tethered Darts", "cost":"3", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/b/b1/Tethered_Darts.jpg", "text":"Cast: Deal 2 damage. If this was cast from an opened III or IV breach, you may place this into any ally's hand."},																	
+{"name":"Force Amplifier", "cost":"4", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/1/12/Force_Amplifier.jpg", "text":"Cast: Deal 3 damage. If this was cast from an opened III or IV breach, deal 1 additional damage."},																	
+{"name":"Imbued Smash", "cost":"5", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/d/db/Imbued_Smash.jpg", "text":"Cast: Deal 4 damage. You may discard a card in hand. If you do, deal 2 damage to the nemesis. (Effects that modify damage affect both instances of damage.)"},																	
+{"name":"Patterned Strike", "cost":"7", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/b/b8/Patterned_Strike.jpg", "text":"Cast: Deal 4 damage. You may return to your hand up to two cards in your discard pile that cost 0$."},																	
+{"name":"Spirit Lift", "cost":"8", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/4/48/Spirit_Lift.jpg", "text":"While prepped, once during your turn when you gain a charge, any ally gains 2 charges. Cast: Deal 5 damage."},																	
+{"name":"Fatal Harmony", "cost":"5", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/7/7a/Fatal_Harmony.jpg", "text":"Cast: Deal 4 damage. Any ally may discard a Fatal Harmony in hand and draw a card. If they do, deal 3 damage. (Effects that modify damage affect both instances of damage.)"},																	
+{"name":"Bouncing Boom", "cost":"6", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/3/3f/Bouncing_Boom.jpg", "text":"Echo Cast: Deal 2 damage."},																	
+{"name":"Reverberating Shock", "cost":"4", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/1/19/Reverberating_Shock.jpg", "text":"Echo Cast: Deal 1 damage. Gain 1$ that can only be used to gain cards."},																	
+{"name":"Deluge of Power", "cost":"6", "set":"NA", "image":"https://static.wikia.nocookie.net/aeonsend/images/4/42/Deluge_of_Power.jpg", "text":"Cast: Deal 4 damage. Any ally may discard up to two cards in hand. They draw a card for each card discarded this way."},																	
+{"name":"Wound Mender", "cost":"8", "set":"IW", "image":"https://static.wikia.nocookie.net/aeonsend/images/d/d2/Wound_Mender.jpg", "text":"Echo Cast: Deal 2 damage. If this was cast from an opened III or IV breach, gain 1 life."},																	
+{"name":"Breach Seeker", "cost":"5", "set":"SD", "image":"https://static.wikia.nocookie.net/aeonsend/images/4/41/Breach_Seeker.jpg", "text":"Echo Cast: Deal 1 damage. Focus any ally's breach."},																	
+{"name":"Crescendo Ray", "cost":"4", "set":"SD", "image":"https://static.wikia.nocookie.net/aeonsend/images/b/bf/Crescendo_Ray.jpg", "text":"Cast: Deal 3 damage. Gain 1$ for each other spell you have prepped."},																	
+{"name":"Storm Vapors", "cost":"4", "set":"SD", "image":"https://static.wikia.nocookie.net/aeonsend/images/b/b9/Storm_Vapors.jpg", "text":"Cast: Deal 3 damage. If there is another Storm Vapors in any player's discard pile, focus any player's breach."},																	
+{"name":"Mantra of Strength", "cost":"3", "set":"SD", "image":"https://static.wikia.nocookie.net/aeonsend/images/4/4b/Mantra_of_Strength.jpg", "text":"Cast: Any player focuses their closed breach with the highest focus cost. Deal 1 damage. You may destroy this. If you do, deal 2 additional damage."},																	
+{"name":"Embody Flame", "cost":"7", "set":"SD", "image":"https://static.wikia.nocookie.net/aeonsend/images/a/ac/Embody_Flame.jpg", "text":"Cast: Deal 5 damage. You may destroy a card in this card's supply pile. If you do deal 3 additional damage."},																	
+{"name":"Snap Ritual", "cost":"6", "set":"SD", "image":"https://static.wikia.nocookie.net/aeonsend/images/d/df/Snap_Ritual.jpg", "text":"While prepped once per turn during your main phase, you may discard a card in hand to deal 2 damage. Cast: Deal 3 damage."},																	
+{"name":"Dual Flash", "cost":"3", "set":"A", "image":"https://static.wikia.nocookie.net/aeonsend/images/0/06/Dual_Flash.jpg", "text":"Cast: Deal 2 damage. If this is the first time you have cast Dual Flash during your casting phase this turn, you may cast any player's prepped Dual Flash without discarding it."},																	
+{"name":"Dust Caller", "cost":"5", "set":"A", "image":"https://static.wikia.nocookie.net/aeonsend/images/1/16/Dust_Caller.jpg", "text":"Cast: Deal 4 damage. Any ally returns a card that costs 0$ from their discard pile to their hand."},																	
+{"name":"Symbiotic Synapse", "cost":"7", "set":"A", "image":"https://static.wikia.nocookie.net/aeonsend/images/0/07/Symbiotic_Synapse.jpg", "text":"If there is another Symbiotic Synapse in any player's discard pile, this gains Echo. Cast: Deal 4 damage."},																	
+{"name":"Fortified Frost", "cost":"2", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/1/14/Fortified_Frost.jpg", "text":"Cast: Deal 2 damage.  You may discard a card in hand.  If you do, deal 1 addtional damage."},																	
+{"name":"Twisted Fang", "cost":"4", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/0/09/Twisted_Fang.jpg", "text":"Cast: Deal 3 damage.  If this card's supply pile is empty, deal 1 additional damage."},																	
+{"name":"Lightning Arrow", "cost":"5", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/4/4f/Lightning_Arrow.jpg", "text":"Cast: Deal 3 damage.  You may discard a card in hand.  If you do, Gravehold gains 1 life."},																	
+{"name":"Tornado of Insight", "cost":"6", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/0/04/Tornado_of_Insight.jpg", "text":"Cast: Deal 5 damage.  If you have no closed breaches, gain 1 charge."},																	
+{"name":"Infused Ignition", "cost":"4", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/7/76/Infused_Ignition.jpg", "text":"Cast: Deal 3 damage.  If Xaxos: Outcast has 4 or less charges, he gains 1 charge."},																	
+{"name":"Paired Storm", "cost":"3", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/2/28/Paired_Storm.jpg", "text":"Link (Two spells with Link may be prepped to the same breach.)  Cast: Deal 2 damage.  If this is the second time you have cast a Paired Storm this turn, deal 2 additional damage."},																	
+{"name":"Arcane Relay", "cost":"8", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/4/4a/Arcane_Relay.jpg", "text":"Cast: Any ally draws a card and then reveals their hand.  Deal 4 damage.  Deal 1 additional damage for each card in that ally's hand that costs 1$ or more."},																	
+{"name":"Radiant Conflux", "cost":"5", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/c/c5/Radiant_Conflux.jpg", "text":"Cast: Deal 3 damage.  Any ally may draw a card and then discard a card in hand."},																	
+{"name":"Shattering Bolt", "cost":"4", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/a/a6/Shattering_Bolt.jpg", "text":"Cast:  Deal 2 damage.  You may destroy a card in your hand.  OR Cast: Discard a gem in hand.  If you do, deal 4 damage."},																	
+{"name":"Unstable Rift", "cost":"5", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/3/3b/Unstable_Rift.jpg", "text":"While prepped, at the end of your casting phase deal 1 damage and gain 1$.  Cast: Deal 4 damage."},																	
+{"name":"Gathered Will", "cost":"5", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/b/b2/Gathered_Will.jpg", "text":"Cast:  Deal 2 damage.  You may gain a spell from any supply pile that costs 4$ or less and place it on top of your deck."},																	
+{"name":"Hasted Intellect", "cost":"6", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/7/76/Hasted_Intellect.jpg", "text":"While prepped, when you gain a card, you may place that card on top of your deck.  Cast: Deal 4 damage."},																	
+{"name":"Swarm of Flame", "cost":"6", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/e/eb/Swarm_of_Flame.jpg", "text":"Cast:  Deal 5 damage.  You may cast any player's prepped spell that costs 5$ or less."},																	
+{"name":"Dizzying Burst", "cost":"8", "set":"O", "image":"https://static.wikia.nocookie.net/aeonsend/images/a/a6/Dizzying_Burst.jpg", "text":"Cast:  Deal 6 damage.  Reveal the turn order deck.  Return it in any order."},																	
+{"name":"Cleanse", "cost":"4", "set":"RG", "image":"https://static.wikia.nocookie.net/aeonsend/images/b/b8/Cleanse.jpg", "text":"Cast: Deal 3 damage.  If you have 3 or less life, gain 1 life."},																	
+{"name":"Memory Break", "cost":"6", "set":"RG", "image":"https://static.wikia.nocookie.net/aeonsend/images/c/c3/Memory_Break.jpg", "text":"Cast: Deal 3 damage.  You may destroy a card in hand.  If you do, deal additional damage equal to the cost of the destroyed card."},																	
+{"name":"Flame Jab", "cost":"1", "set":"SV", "image":"https://static.wikia.nocookie.net/aeonsend/images/2/2f/Flame_Jab.jpg", "text":"Cast: Deal 2 damage to a minion.  You may destroy this.  If you do, gain 1$."},																	
+{"name":"Gathering Winds", "cost":"3", "set":"SV", "image":"https://static.wikia.nocookie.net/aeonsend/images/9/90/Gathering_Winds.jpg", "text":"Cast: Deal 2 damage.  If there are six or more other cards in your discard pile, focus any player's breach."},																	
+{"name":"Cinder Shower", "cost":"5", "set":"SV", "image":"https://static.wikia.nocookie.net/aeonsend/images/a/ae/Cinder_Shower.jpg", "text":"While prepped, when you gain a card, deal 1 damage.  Cast:  Deal 3 damage."},																	
+{"name":"Reaper's Flame", "cost":"7", "set":"SV", "image":"https://static.wikia.nocookie.net/aeonsend/images/c/c9/Reaper%27s_Flame.jpg", "text":"While prepped, once per turn when you cast another spell, you may gain a card that costs 5$ or less from any supply pile.  Cast: Deal 5 damage."},																	
+{"name":"Erasure of Mind", "cost":"7", "set":"SV", "image":"https://static.wikia.nocookie.net/aeonsend/images/e/e9/Erasure_of_Mind.jpg", "text":"Cast: Destroy a card in hand that costs 3$ or more.  If you do, deal 10 damage.  OR Cast: Deal 5 damage.  Reveal the top two cards of your deck and place any number on top of your discard pile."},																	
+{"name":"Aether Ripple", "cost":"3", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/AetherRipple.jpg?0", "text":"Cast: Deal 2 damage. Each ally gains an aether token."},																	
+{"name":"Douse", "cost":"4", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Douse.jpg?0", "text":"Cast: Deal 3 damage. You may destroy this. If you do, remove a fire token from your location on the map."},																	
+{"name":"Backfire", "cost":"5", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Backfire.jpg?0", "text":"Cast: Deal 4 damage. You may lose 1 charge to return this to your hand."},																	
+{"name":"Paradigm Flux", "cost":"7", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ParadigmFlux.jpg?0", "text":"Cast: Remove up to 2 shield tokens from minions. Deal 5 damage."},																	
+{"name":"Entwined Tremor", "cost":"8", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/EntwinedTremor.jpg?0", "text":"Cast: Deal 6 damage. If there is a spell that costs 5$ or more prepped to an adjacent breach, this deals 2 additional damage. If there is a spell that costs 4$ or less prepped to an adjacent breach, gain 1 charge."},																	
+{"name":"Galvanize", "cost":"4", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Galvanize.jpg?0", "text":"While prepped, once during your main phase, you may Conjure. Cast: Deal 2 damage."},																	
+{"name":"Temporal Strike", "cost":"6", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/TemporalStrike.jpg?0", "text":"While prepped, when you cast a spell that costs 2$ or less, it deals 1 additional damage and you may return it to your hand. Cast: Deal 4 damage."},																	
+{"name":"Parallel Self", "cost":"6", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ParallelSelf.jpg?0", "text":"Cast: Deal 5 damage. Recall: Spend 2$ to deal 2 damage."},																	
+{"name":"Magnetic Burst", "cost":"4", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/MagneticBurst.jpg?0", "text":"Cast: Deal 3 damage. You may reveal the top two cards of you deck and place any number of those cards on top of your discard pile."},																	
+{"name":"Grassblade", "cost":"2", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Grassblade.jpg?0", "text":"You may destroy this from your hand during any ally's main phase. If you do, draw a card. Cast: Deal 2 damage."},																	
+{"name":"Fractured Lightning", "cost":"4", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/FracturedLightning.jpg?0", "text":"Overheat 3 Cast: Deal 5 damage.  Reveal the top card of the nemesis deck.  If it is an attack or power, overheat this card.  If this card is fully overheated, destroy it and the nemesis Unleashes."},																	
+{"name":"Cascade", "cost":"5", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Cascade.jpg?0", "text":"Cast: Deal 3 damage. You may return a card that costs 4$ or less from your discard pile to your hand."},																	
+{"name":"Rainbow Surge", "cost":"7", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/RainbowSurge.jpg?0", "text":"Cast: Deal 5 damage.  If this causes a minion to be discarded, boost this.  Gain 1 life for each boost mark on this."},																	
+{"name":"Quicksilver Bolt", "cost":"5", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/QuicksilverBolt.jpg?0", "text":"Boost 2 You may prep this spell to one of your opened breaches during any ally's main phase.  When you prep this during your main phase, boost this. Cast: Deal 3 damage.  If this is fully boosted, it deals 1 additional damage."},																	
+{"name":"Volcanic Shrapnel", "cost":"8", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/VolcanicShrapnel.jpg?0", "text":"Cast: Deal 1 damage. Deal 1 damage. Deal 1 damage. You may return to your hand up to two card from your discard pile that cost 0$."},																	
+{"name":"Flamequake", "cost":"6", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Flamequake.jpg?0", "text":"Cast: Deal 5 damage. Recall: Lose 2 charges to remove a fire token from your location on the map."},																	
+{"name":"Crystal Carapace", "cost":"6", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/CrystalCarapace.jpg?0", "text":"Cast: Deal 4 damage. When another card or effect would cause you to discard or destroy this, you may return this to your hand. If it was prepped, you may prep it. (Ignore this effect while this card is in the supply.)"},																	
+{"name":"Evaporating Ray", "cost":"4", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/EvaporatingRay.jpg?0", "text":"Cast: Deal 3 damage. Any ally may discard a card in hand that costs 2$ or more. If they do, this deals an additional 2 damage."},																	
+{"name":"Magnify", "cost":"2", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Magnify.jpg?0", "text":"While prepped, an additional spell that costs 2$ or less may be prepped to this breach. Cast: Deal 1 damage."},																	
+{"name":"Dawn Barrage", "cost":"3", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/DawnBarrage.jpg?0", "text":"Cast: Deal 1 damage. Other spells you cast during your casting phase this turn deal an additional 1 damage."},																	
+{"name":"Stupefy", "cost":"3", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Stupefy.jpg?0", "text":"Cast: Deal 2 damage. Recall: You may discard a card to silence a minion."},																	
+{"name":"Force Bubble", "cost":"4", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ForceBubble.jpg?0", "text":"Cast: Deal 2 damage. OR Cast: Return this to your hand. You may prep a spell from your hand that is not named Force Bubble."},																	
+{"name":"Accelerating Field", "cost":"5", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/AcceleratingField.jpg?0", "text":"Cast: Deal 3 damage. If this is the first time you have cast an Accelerating Field this turn, you may reveal the top four cards of your deck. You may place any cards named Accelerating Field revealed this way into your hand."},																	
+{"name":"Harmonize", "cost":"5", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Harmonize.jpg?0", "text":"You may discard this card from your hand when any ally casts a spell to have that spell deal an additional 2 damage. Cast: Deal 4 damage."},																	
+{"name":"Phantasmagoria", "cost":"5", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Phantasmagoria.jpg?0", "text":"Cast: Deal 3 damage. Recall: Conjure."},										 							
+{"name":"Rune Tutor", "cost":"5", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/RuneTutor.jpg?0", "text":"Cast: Gain a card that costs 6$ or less from any supply pile and place it on top of your deck. OR Cast: Deal 4 damage."},																	
+{"name":"Bestowing Light", "cost":"6", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/BestowingLight.jpg?0", "text":"Cast: Deal 5 damage. Any ally gains an aether token for each spell prepped in an adjacent breach."},																	
+{"name":"Reverse Gravity", "cost":"7", "set":"RU", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ReverseGravity.jpg?0", "text":"Cast: Deal 6 damage. When this is placed into your discard pile, you may place this on the bottom of your discard pile."},																	
+{"name":"Seer's Wrath", "cost":"5", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/SeersWrath.jpg?0", "text":"Develop Cost 3$. When you Develop this, look at the top card of the turn order deck. You may place that card on the bottom or top of the turn order deck. Cast: Deal 3 damage."},																	
+{"name":"Tethered Smite", "cost":"7", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/TetheredSmite.jpg?0", "text":"Develop Cost 4$. Cast: Deal 5 damage divided however you choose to the nemesis and any number of minions."},																	
+{"name":"Building Storm", "cost":"4", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/BuildingStorm.jpg?0", "text":"Develop Cost 2$. Cast: Deal 2 damage. Deal 1 additional damage for every copy of this card in the Develop zone."},																	
+{"name":"Thistle Spear", "cost":"8", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ThistleSpear.jpg?0", "text":"Develop Cost 5$. Cast: Deal 5 damage. Any ally may gain a card from the Develop zone and place it into their hand."},																	
+{"name":"Consume Magic", "cost":"4", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ConsumeMagic.jpg?0", "text":"Cast: Deal 3 damage. If this defeats a minion from the nemesis deck, swap this card for Detonate."},																	
+{"name":"Prismatic Flare", "cost":"5", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/PrismaticFlare.jpg?0", "text":"When you prep this, focus your III breach. Cast: Deal 3 damage."},																	
+{"name":"Cavernous Maw", "cost":"3", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/CavernousMaw.jpg?0", "text":"Cast: Deal 2 damage. You may destroy a card in your discard pile that costs 4$ or more. If you do, swap this card for Dragonflare and place it on top of your deck."},																	
+{"name":"Harbinger Descent", "cost":"8", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/HarbingerDescent.jpg?0", "text":"Cast: Deal 6 damage. You may discard three of your other prepped spells to swap this card for Apocalypse."},																	
+{"name":"Reflecting Current", "cost":"6", "set":"E", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ReflectingCurrent.jpg?0", "text":"While prepped, when you prep another spell, gain 1$. Cast: Deal 4 damage."},																	
+{"name":"Lashing Sinew", "cost":"5", "set":"OR", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/LashingSinew.jpg?0", "text":"When you prep this, draw an additional card at the end of this turn. Cast: Deal 2 damage."},																	
+{"name":"Propel", "cost":"5", "set":"OR", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Propel.jpg?0", "text":"Cast: Deal 4 damage. If you placed this into your discard pile, swap this card for Gather Force."},																	
+{"name":"Starfall", "cost":"6", "set":"OR", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/Starfall.jpg?0", "text":"Cast: Deal 3 damage. Reveal the top three cards of your deck. You may prep a spell not named Starfall that is revealed this way."},																	
+{"name":"Drown in Flames", "cost":"6", "set":"Promo", "image":"https://static.wikia.nocookie.net/aeonsend/images/a/a5/Drown_in_Flames.jpg", "text":"Cast: Deal 4 damage to a minion or the nemesis. You may lose 2 charges. If you do, repeat this. (Effects that modify damage affect each instance of damage this spell deals)"},																	
+{"name":"Thieving Spirit", "cost":"5", "set":"Promo", "image":"https://static.wikia.nocookie.net/aeonsend/images/5/5b/Thieving_Spirit.jpg", "text":"Cast: Deal 4 damage. Gain 1$."},																	
+{"name":"Fleeting Vision", "cost":"3", "set":"Promo", "image":"https://static.wikia.nocookie.net/aeonsend/images/6/6f/Fleeting_Vision.jpg", "text":"Cast: Deal 2 damage. Each player may reveal the top two cards of their deck and may discard any of those cards."},																	
+{"name":"Splinter Missile", "cost":"5", "set":"Promo", "image":"https://static.wikia.nocookie.net/aeonsend/images/5/51/Splinter_Missile.jpg", "text":"Cast: Deal 4 damage. Any ally may discard a card in hand. If they do, divide this damage however you choose among the nemesis and any number of minions."},																	
+{"name":"Illuminating Flame", "cost":"6", "set":"Promo", "image":"https://static.wikia.nocookie.net/aeonsend/images/1/10/Illuminating_Flame.jpg", "text":"Cast: Deal 5 damage. If this was cast from an opened III or IV breach, you may destroy this. If you do, gain 3 charges."},																	
+{"name":"Chronal Arc", "cost":"7", "set":"Promo", "image":"https://static.wikia.nocookie.net/aeonsend/images/9/99/Chronal_Arc.jpg", "text":"This spell must be prepped to two adjacent breaches so that this card touches both breaches. This fully occupies both breaches. Cast: Deal 4 damage. You may place this card into your hand."},																	
+{"name":"Force Catalyst", "cost":"4", "set":"Promo", "image":"https://static.wikia.nocookie.net/aeonsend/images/7/78/Force_Catalyst.jpg", "text":"While prepped, during your main phase you may spend 3$ to cast any player's prepped spell.  Cast: Deal 3 damage."},																	
+{"name":"Parasitic Force", "cost":"8", "set":"Promo", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/ParasiticForce.jpg?0", "text":"You may prep this to any player's opened breach. Cast: Deal 6 damage. You may destroy up to two cards in your hand or discard pile."}																	
 ]
