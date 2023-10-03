@@ -1,56 +1,380 @@
 [
-  {"name":"Rageborne", "level":"1", "difficulty":"2", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/RageBorne.jpg?0"},
-{"name":"Carapace Queen", "level":"1", "difficulty":"3", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Crooked Mask", "level":"2", "difficulty":"5", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Prince of Gluttons", "level":"2", "difficulty":"5", "set":"AE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/PrinceOfGluttons.jpg?0"},
-{"name":"Horde Crone", "level":"2", "difficulty":"6", "set":"D", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Blight Lord", "level":"2", "difficulty":"4", "set":"N", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Wayward One", "level":"3", "difficulty":"7", "set":"N", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Umbra Titan", "level":"1", "difficulty":"3", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Hollow Crown", "level":"3", "difficulty":"5", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Magus of Cloaks", "level":"3", "difficulty":"7", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/MagusOfCloaks.jpg?0"},
-{"name":"Gate Witch", "level":"4", "difficulty":"7", "set":"WE", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Knight of Shackles", "level":"1", "difficulty":"4", "set":"V", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/KnightOfShackles.jpg?0"},
-{"name":"Maiden of Thorns", "level":"3", "difficulty":"4", "set":"V", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/MaidenOfThorns.jpg?0"},
-{"name":"Thrice Dead Prophet", "level":"2", "difficulty":"5", "set":"OD", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Wraithmonger", "level":"4", "difficulty":"6", "set":"OD", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Bladius", "level":"1", "difficulty":"1", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Spawning Horror", "level":"1", "difficulty":"3", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Fungal Mesh", "level":"2", "difficulty":"4", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Deathmind", "level":"4", "difficulty":"6", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Maelstrom: Risen", "level":"4", "difficulty":"8", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Xaxos Ascended", "level":"4", "difficulty":"9", "set":"L", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Maggoth", "level":"1", "difficulty":"3", "set":"NA", "image":"https://cf.geekdo-images.com/imagepage/img/RKgB4EAm8D-1JCiGWebiMO_6GLY=/fit-in/900x600/filters:no_upscale()/pic4600915.jpg"},
-{"name":"Arachnos", "level":"2", "difficulty":"4", "set":"NA", "image":"https://cf.geekdo-images.com/imagepage/img/7eBdDGpzBCrM2QCN-ljsuVASm-4=/fit-in/900x600/filters:no_upscale()/pic4615128.jpg"},
-{"name":"Ageless Walker", "level":"3", "difficulty":"5", "set":"NA", "image":"https://cf.geekdo-images.com/imagepage/img/ip3jsbm_Uay5SXUWQkiBzM8AbKQ=/fit-in/900x600/filters:no_upscale()/pic4610776.jpg"},
-{"name":"Fenrix", "level":"4", "difficulty":"7", "set":"NA", "image":"https://cf.geekdo-images.com/imagepage/img/PLErsm3PA-OTcrS0Id4ciOUQFp4=/fit-in/900x600/filters:no_upscale()/pic4610775.jpg"},
-{"name":"Necroswarm", "level":"4", "difficulty":"7", "set":"IW", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"The Wailing", "level":"3", "difficulty":"6", "set":"SD", "image":"https://cf.geekdo-images.com/imagepage/img/SMomhIN1LVqRmuPefQ50AG3rkvY=/fit-in/900x600/filters:no_upscale()/pic4600917.jpg"},
-{"name":"The Wanderer", "level":"3", "difficulty":"5", "set":"A", "image":"https://cf.geekdo-images.com/imagepage/img/Jdx4jWIluIP7AyIxlnOneExlzKU=/fit-in/900x600/filters:no_upscale()/pic4615127.jpg"},
-{"name":"Experiment 153", "level":"1", "difficulty":"3", "set":"O", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Thief of Dreams", "level":"2", "difficulty":"4", "set":"O", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Risen Thrall", "level":"3", "difficulty":"5", "set":"O", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Fountain of Souls", "level":"4", "difficulty":"8", "set":"O", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Fortress", "level":"2", "difficulty":"5", "set":"RG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Burrower", "level":"4", "difficulty":"8", "set":"RG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"The Burning Kor", "level":"4", "difficulty":"7", "set":"SV", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Bishop of Scrolls", "level":"1", "difficulty":"2", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Bishop: Returned", "level":"3", "difficulty":"7", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Fate Shepherd", "level":"1", "difficulty":"3", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Griefweaver", "level":"4", "difficulty":"8", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Mist Revealed", "level":"4", "difficulty":"10", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Mother of Rust", "level":"2", "difficulty":"4", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Paradox of Bone", "level":"4", "difficulty":"8", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Paradox of Myth", "level":"4", "difficulty":"8", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Paradox of Myth and Bone", "level":"3", "difficulty":"5", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Rust Amalgam", "level":"3", "difficulty":"6", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Rust Superion", "level":"2", "difficulty":"5", "set":"LG", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Herald of the End", "level":"2", "difficulty":"4", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"The Changeling Nest", "level":"3", "difficulty":"6", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Corruption's Core", "level":"4", "difficulty":"8", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Stonemonger", "level":"2", "difficulty":"4", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Infested Mutation", "level":"3", "difficulty":"6", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Erythiza, Consumed", "level":"4", "difficulty":"8", "set":"PF", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"Clouded Mesmer", "level":"4", "difficulty":"7", "set":"E", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"},
-{"name":"The Endless Decay", "level":"3", "difficulty":"5", "set":"OR", "image":"https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"}
+  {
+    "name": "Rageborne",
+    "level": "1",
+    "difficulty": "2",
+    "set": "AE",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/RageBorne.jpg?0"
+  },
+  {
+    "name": "Carapace Queen",
+    "level": "1",
+    "difficulty": "3",
+    "set": "AE",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Crooked Mask",
+    "level": "2",
+    "difficulty": "5",
+    "set": "AE",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Prince of Gluttons",
+    "level": "2",
+    "difficulty": "5",
+    "set": "AE",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/PrinceOfGluttons.jpg?0"
+  },
+  {
+    "name": "Horde Crone",
+    "level": "2",
+    "difficulty": "6",
+    "set": "D",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Blight Lord",
+    "level": "2",
+    "difficulty": "4",
+    "set": "N",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Wayward One",
+    "level": "3",
+    "difficulty": "7",
+    "set": "N",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Umbra Titan",
+    "level": "1",
+    "difficulty": "3",
+    "set": "WE",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Hollow Crown",
+    "level": "3",
+    "difficulty": "5",
+    "set": "WE",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Magus of Cloaks",
+    "level": "3",
+    "difficulty": "7",
+    "set": "WE",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/MagusOfCloaks.jpg?0"
+  },
+  {
+    "name": "Gate Witch",
+    "level": "4",
+    "difficulty": "7",
+    "set": "WE",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Knight of Shackles",
+    "level": "1",
+    "difficulty": "4",
+    "set": "V",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/KnightOfShackles.jpg?0"
+  },
+  {
+    "name": "Maiden of Thorns",
+    "level": "3",
+    "difficulty": "4",
+    "set": "V",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/MaidenOfThorns.jpg?0"
+  },
+  {
+    "name": "Thrice Dead Prophet",
+    "level": "2",
+    "difficulty": "5",
+    "set": "OD",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Wraithmonger",
+    "level": "4",
+    "difficulty": "6",
+    "set": "OD",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Bladius",
+    "level": "1",
+    "difficulty": "1",
+    "set": "L",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Spawning Horror",
+    "level": "1",
+    "difficulty": "3",
+    "set": "L",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Fungal Mesh",
+    "level": "2",
+    "difficulty": "4",
+    "set": "L",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Deathmind",
+    "level": "4",
+    "difficulty": "6",
+    "set": "L",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Maelstrom: Risen",
+    "level": "4",
+    "difficulty": "8",
+    "set": "L",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Xaxos Ascended",
+    "level": "4",
+    "difficulty": "9",
+    "set": "L",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Maggoth",
+    "level": "1",
+    "difficulty": "3",
+    "set": "NA",
+    "image": "https://cf.geekdo-images.com/imagepage/img/RKgB4EAm8D-1JCiGWebiMO_6GLY=/fit-in/900x600/filters:no_upscale()/pic4600915.jpg"
+  },
+  {
+    "name": "Arachnos",
+    "level": "2",
+    "difficulty": "4",
+    "set": "NA",
+    "image": "https://cf.geekdo-images.com/imagepage/img/7eBdDGpzBCrM2QCN-ljsuVASm-4=/fit-in/900x600/filters:no_upscale()/pic4615128.jpg"
+  },
+  {
+    "name": "Ageless Walker",
+    "level": "3",
+    "difficulty": "5",
+    "set": "NA",
+    "image": "https://cf.geekdo-images.com/imagepage/img/ip3jsbm_Uay5SXUWQkiBzM8AbKQ=/fit-in/900x600/filters:no_upscale()/pic4610776.jpg"
+  },
+  {
+    "name": "Fenrix",
+    "level": "4",
+    "difficulty": "7",
+    "set": "NA",
+    "image": "https://cf.geekdo-images.com/imagepage/img/PLErsm3PA-OTcrS0Id4ciOUQFp4=/fit-in/900x600/filters:no_upscale()/pic4610775.jpg"
+  },
+  {
+    "name": "Necroswarm",
+    "level": "4",
+    "difficulty": "7",
+    "set": "IW",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "The Wailing",
+    "level": "3",
+    "difficulty": "6",
+    "set": "SD",
+    "image": "https://cf.geekdo-images.com/imagepage/img/SMomhIN1LVqRmuPefQ50AG3rkvY=/fit-in/900x600/filters:no_upscale()/pic4600917.jpg"
+  },
+  {
+    "name": "The Wanderer",
+    "level": "3",
+    "difficulty": "5",
+    "set": "A",
+    "image": "https://cf.geekdo-images.com/imagepage/img/Jdx4jWIluIP7AyIxlnOneExlzKU=/fit-in/900x600/filters:no_upscale()/pic4615127.jpg"
+  },
+  {
+    "name": "Experiment 153",
+    "level": "1",
+    "difficulty": "3",
+    "set": "O",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Thief of Dreams",
+    "level": "2",
+    "difficulty": "4",
+    "set": "O",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Risen Thrall",
+    "level": "3",
+    "difficulty": "5",
+    "set": "O",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Fountain of Souls",
+    "level": "4",
+    "difficulty": "8",
+    "set": "O",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Fortress",
+    "level": "2",
+    "difficulty": "5",
+    "set": "RG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Burrower",
+    "level": "4",
+    "difficulty": "8",
+    "set": "RG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "The Burning Kor",
+    "level": "4",
+    "difficulty": "7",
+    "set": "SV",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Bishop of Scrolls",
+    "level": "1",
+    "difficulty": "2",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Bishop: Returned",
+    "level": "3",
+    "difficulty": "7",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Fate Shepherd",
+    "level": "1",
+    "difficulty": "3",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Griefweaver",
+    "level": "4",
+    "difficulty": "8",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Mist Revealed",
+    "level": "4",
+    "difficulty": "10",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Mother of Rust",
+    "level": "2",
+    "difficulty": "4",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Paradox of Bone",
+    "level": "4",
+    "difficulty": "8",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Paradox of Myth",
+    "level": "4",
+    "difficulty": "8",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Paradox of Myth and Bone",
+    "level": "3",
+    "difficulty": "5",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Rust Amalgam",
+    "level": "3",
+    "difficulty": "6",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Rust Superion",
+    "level": "2",
+    "difficulty": "5",
+    "set": "LG",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Herald of the End",
+    "level": "2",
+    "difficulty": "4",
+    "set": "PF",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "The Changeling Nest",
+    "level": "3",
+    "difficulty": "6",
+    "set": "PF",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Corruption's Core",
+    "level": "4",
+    "difficulty": "8",
+    "set": "PF",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Stonemonger",
+    "level": "2",
+    "difficulty": "4",
+    "set": "PF",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Infested Mutation",
+    "level": "3",
+    "difficulty": "6",
+    "set": "PF",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Erythiza, Consumed",
+    "level": "4",
+    "difficulty": "8",
+    "set": "PF",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "Clouded Mesmer",
+    "level": "4",
+    "difficulty": "7",
+    "set": "E",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  },
+  {
+    "name": "The Endless Decay",
+    "level": "3",
+    "difficulty": "5",
+    "set": "OR",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/name.jpg?0"
+  }
 ]

@@ -1,213 +1,494 @@
 [
-  { "Mage_name": "Adelheim", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Brama", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Jian", "image": "../../assets/images/Arcane_Relay.jpg" },
   {
-    "Mage_name": "Kadir (AE)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Lash", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Mist (AE)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Phaedraxa", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Xaxos (AE)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Nym", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Reeve", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Z'hana (D)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Adelheim",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "AE",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Malastar (N)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Arachnos (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Dezmodia (WE)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Garu", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Gex", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Mazahaedron",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Mist (WE)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Quilius", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Ulgimor", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Yan Magda (WE)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Sparrow", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Xaxos (V)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Indira (OD)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Remnant", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Blue", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Green", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Red", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Yellow", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Sahala", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Gygar (NA)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Arachnos (O)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/8/87/Arachnos_%28Outcasts%29Portrait.jpg",
+    "set": "O",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Soskel (NA)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Auren",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "PF",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Taqren (NA)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Bayli",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "PF",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Talix (NA)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Rhia", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Claudia (NA)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Lost (NA)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Inco (ItW)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Brama",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "AE",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Razra (ItW)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Nook (SD)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Mazra (A)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Qu (A)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Z'hana (O)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Cairna",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/f/f1/CairnaPortrait.jpg",
+    "set": "RG",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Taqren (O)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Kel (O)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Ilya (O)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Qu (O)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Thraxir (O)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Claudia (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Arachnos (O)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Claudia (NA)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/a4/ClaudiaPortrait.jpg",
+    "set": "NA",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Dezmodia (O)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Cairna", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Ohat and Ulgimor",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Lucien", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Reth", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Arachnos (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Dezmodia (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Claudia (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Dezmodia (O)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/4d/Dezmodia_%28Outcasts%29Portrait.jpg",
+    "set": "O",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Dezmodia (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Dezmodia (WE)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Dezmodia.jpg?0",
+    "set": "WE",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Gygar (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Dorian",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "WE",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Ilya (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Garu",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "WE",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Inco (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Gex",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "L",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Indira (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Gygar (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Kadir (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Kel (LoG)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Lost (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Gygar (NA)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/d/d0/GygarPortrait.jpg",
+    "set": "NA",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Malastar (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Ilya (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Mazra (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Ilya (O)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/ac/IlyaPortrait.jpg",
+    "set": "O",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Nook (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
-  },
-  { "Mage_name": "Qu (LoG)", "image": "../../assets/images/Arcane_Relay.jpg" },
-  {
-    "Mage_name": "Razra (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Inco (ItW)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/4b/IncoPortrait.jpg",
+    "set": "IW",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Soskel (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Inco (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Talix (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Indira (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Taqren (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Indira (OD)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "OD",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Thraxir (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Jian",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "AE",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Xaxos (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Kadir (AE)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "AE",
+    "complexity": "1"
   },
   {
-    "Mage_name": "Yan Magda (LoG)",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Kadir (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
   },
-  { "Mage_name": "Auren", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Nadea", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Bayli", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Shoshana", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Rhys", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Lilly", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Kavoc", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Willow", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Ona", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Naftir", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Dorian", "image": "../../assets/images/Arcane_Relay.jpg" },
   {
-    "Mage_name": "Kiri and Phoenix",
-    "image": "../../assets/images/Arcane_Relay.jpg"
+    "name": "Kavoc",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "PF",
+    "complexity": "1"
   },
-  { "Mage_name": "Etran", "image": "../../assets/images/Arcane_Relay.jpg" },
-  { "Mage_name": "Lena", "image": "../../assets/images/Arcane_Relay.jpg" }
+  {
+    "name": "Kel (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Kel (O)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/f/fd/KelPortrait.jpg",
+    "set": "O",
+    "complexity": "1"
+  },
+  {
+    "name": "Kiri and Phoenix",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "OR",
+    "complexity": "1"
+  },
+  {
+    "name": "Lash",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "AE",
+    "complexity": "1"
+  },
+  {
+    "name": "Lilly",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "PF",
+    "complexity": "1"
+  },
+  {
+    "name": "Lost (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Lost (NA)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/d/df/LostPortrait.jpg",
+    "set": "NA",
+    "complexity": "1"
+  },
+  {
+    "name": "Lucien",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/c/ce/LucienPortrait.jpg",
+    "set": "SV",
+    "complexity": "1"
+  },
+  {
+    "name": "Malastar (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Malastar (N)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "N",
+    "complexity": "1"
+  },
+  {
+    "name": "Mazahaedron",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "WE",
+    "complexity": "1"
+  },
+  {
+    "name": "Mazra (A)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/5/5f/MazraPortrait.jpg",
+    "set": "A",
+    "complexity": "1"
+  },
+  {
+    "name": "Mazra (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Mist (AE)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Mist.jpg?0",
+    "set": "AE",
+    "complexity": "1"
+  },
+  {
+    "name": "Mist (WE)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "WE",
+    "complexity": "1"
+  },
+  {
+    "name": "Nadea",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "PF",
+    "complexity": "1"
+  },
+  {
+    "name": "Naftir",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "PF",
+    "complexity": "1"
+  },
+  {
+    "name": "Nook (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Nook (SD)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/d/d2/NookPortrait.jpg",
+    "set": "SD",
+    "complexity": "1"
+  },
+  {
+    "name": "Nym",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "D",
+    "complexity": "1"
+  },
+  {
+    "name": "Ohat and Ulgimor",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/c/ca/Ohat_and_UlgimorPortrait.jpg",
+    "set": "RG",
+    "complexity": "1"
+  },
+  {
+    "name": "Ona",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "AE",
+    "complexity": "1"
+  },
+  {
+    "name": "Phaedraxa",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "A",
+    "complexity": "1"
+  },
+  {
+    "name": "Qu (A)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/ac/QuPortrait.jpg",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Qu (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "O",
+    "complexity": "1"
+  },
+  {
+    "name": "Qu (O)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/2/23/Qu_%28Outcasts%29Portrait.jpg",
+    "set": "WE",
+    "complexity": "1"
+  },
+  {
+    "name": "Quilius",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "IW",
+    "complexity": "1"
+  },
+  {
+    "name": "Razra (ItW)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/3/3b/RazraPortrait.jpg",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Razra (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "L",
+    "complexity": "1"
+  },
+  {
+    "name": "Reeve",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "D",
+    "complexity": "1"
+  },
+  {
+    "name": "Remnant",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "OD",
+    "complexity": "1"
+  },
+  {
+    "name": "Reth",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/a7/RethPortrait.jpg",
+    "set": "SV",
+    "complexity": "1"
+  },
+  {
+    "name": "Rhia",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/4/4f/RhiaPortrait.jpg",
+    "set": "NA",
+    "complexity": "1"
+  },
+  {
+    "name": "Rhys",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "PF",
+    "complexity": "1"
+  },
+  {
+    "name": "Sahala",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/b/b4/SahalaPortrait.jpg",
+    "set": "NA",
+    "complexity": "1"
+  },
+  {
+    "name": "Shoshana",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "PF",
+    "complexity": "1"
+  },
+  {
+    "name": "Soskel (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Soskel (NA)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/d/d8/SoskelPortrait.jpg",
+    "set": "NA",
+    "complexity": "1"
+  },
+  {
+    "name": "Sparrow",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "V",
+    "complexity": "1"
+  },
+  {
+    "name": "Talix (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Talix (NA)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/d/d3/TalixPortrait.jpg",
+    "set": "NA",
+    "complexity": "1"
+  },
+  {
+    "name": "Taqren (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Taqren (NA)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/a/a3/TaqrenPortrait.jpg",
+    "set": "NA",
+    "complexity": "1"
+  },
+  {
+    "name": "Taqren (O)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/c/c9/Taqren_%28Outcasts%29Portrait.jpg",
+    "set": "O",
+    "complexity": "1"
+  },
+  {
+    "name": "Thraxir (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Thraxir (O)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/f/f2/ThraxirPortrait.jpg",
+    "set": "O",
+    "complexity": "1"
+  },
+  {
+    "name": "Ulgimor",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "WE",
+    "complexity": "1"
+  },
+  {
+    "name": "Willow",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "AE",
+    "complexity": "1"
+  },
+  {
+    "name": "Xaxos (AE)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Xaxos.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Xaxos (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "V",
+    "complexity": "1"
+  },
+  {
+    "name": "Xaxos (V)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/XaxosTV.jpg?0",
+    "set": "LG",
+    "complexity": "1"
+  },
+  {
+    "name": "Yan Magda (LoG)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "WE",
+    "complexity": "1"
+  },
+  {
+    "name": "Yan Magda (WE)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/.jpg?0",
+    "set": "L",
+    "complexity": "1"
+  },
+  {
+    "name": "Z'hana (D)",
+    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/Zhana.jpg?0",
+    "set": "D",
+    "complexity": "1"
+  },
+  {
+    "name": "Z'hana (O)",
+    "image": "https://static.wikia.nocookie.net/aeonsend/images/c/cb/Z%27hana_%28Outcasts%29Portrait.jpg",
+    "set": "O",
+    "complexity": "1"
+  }
 ]
