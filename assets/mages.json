@@ -1,0 +1,213 @@
+[
+  { "Mage_name": "Adelheim", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Brama", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Jian", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Kadir (AE)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Lash", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Mist (AE)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Phaedraxa", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Xaxos (AE)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Nym", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Reeve", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Z'hana (D)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Malastar (N)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Dezmodia (WE)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Garu", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Gex", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Mazahaedron",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Mist (WE)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Quilius", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Ulgimor", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Yan Magda (WE)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Sparrow", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Xaxos (V)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Indira (OD)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Remnant", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Blue", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Green", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Red", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Yellow", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Sahala", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Gygar (NA)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Soskel (NA)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Taqren (NA)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Talix (NA)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Rhia", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Claudia (NA)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Lost (NA)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Inco (ItW)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Razra (ItW)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Nook (SD)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Mazra (A)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Qu (A)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Z'hana (O)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Taqren (O)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Kel (O)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Ilya (O)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Qu (O)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Thraxir (O)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Arachnos (O)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Dezmodia (O)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Cairna", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Ohat and Ulgimor",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Lucien", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Reth", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Arachnos (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Claudia (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Dezmodia (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Gygar (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Ilya (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Inco (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Indira (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Kadir (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Kel (LoG)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Lost (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Malastar (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Mazra (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Nook (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Qu (LoG)", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Razra (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Soskel (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Talix (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Taqren (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Thraxir (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Xaxos (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  {
+    "Mage_name": "Yan Magda (LoG)",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Auren", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Nadea", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Bayli", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Shoshana", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Rhys", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Lilly", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Kavoc", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Willow", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Ona", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Naftir", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Dorian", "image": "../../assets/images/Arcane_Relay.jpg" },
+  {
+    "Mage_name": "Kiri and Phoenix",
+    "image": "../../assets/images/Arcane_Relay.jpg"
+  },
+  { "Mage_name": "Etran", "image": "../../assets/images/Arcane_Relay.jpg" },
+  { "Mage_name": "Lena", "image": "../../assets/images/Arcane_Relay.jpg" }
+]

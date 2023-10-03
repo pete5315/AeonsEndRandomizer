@@ -10,6 +10,8 @@ import {
   Animated,
 } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { store } from "./src/redux/store";
+import { Provider } from "react-redux";
 
 import {
   SafeAreaView,
@@ -18,11 +20,11 @@ import {
   useSafeAreaInsets,
 } from "react-native-safe-area-context";
 
-import Market from "./components/Market/Market";
-import Campaign from "./components/Campaign/Campaign";
-import Cards from "./components/Cards/Cards";
-import Settings from "./components/Settings/Settings";
-import Animation from "./components/Animation/Animation";
+import Market from "./src/components/Market/Market";
+import Campaign from "./src/components/Campaign/Campaign";
+import Cards from "./src/components/Cards/Cards";
+import Settings from "./src/components/Settings/Settings";
+import Animation from "./src/components/Animation/Animation";
 
 const Stack = createNativeStackNavigator();
 
@@ -249,7 +251,6 @@ const FadeSettings = (props, { navigation }) => (
 );
 
 function MyTabs() {
-  
   const screenOptions = {
     unmountOnBlur: false,
     headerShown: false,
@@ -269,8 +270,8 @@ function MyTabs() {
   return (
     <Tab.Navigator {...{ screenOptions, sceneContainerStyle }}>
       <Tab.Screen name="Campaign" component={Animation} />
-      <Tab.Screen name="Market" component={Animation}  />
-      <Tab.Screen name="Cards" component={Animation}  />
+      <Tab.Screen name="Market" component={Animation} />
+      <Tab.Screen name="Cards" component={Animation} />
       <Tab.Screen name="Settings" component={Animation} />
     </Tab.Navigator>
   );
@@ -290,8 +291,10 @@ const screenOptions = {
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <MyTabs />
-    </NavigationContainer>
+    <Provider store={store}>
+      <NavigationContainer>
+        <MyTabs />
+      </NavigationContainer>
+    </Provider>
   );
 }
