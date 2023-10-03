@@ -86,11 +86,11 @@ function MyTabs() {
     unmountOnBlur: false,
     headerShown: false,
     tabBarStyle: {
-      backgroundColor: "#0000ff",
+      backgroundColor: "#95a5a6",
       height: 100,
     },
     tabBarItemStyle: {
-      backgroundColor: "#00ff00",
+      backgroundColor: "#ffffff",
       margin: 5,
       borderRadius: 10,
     },

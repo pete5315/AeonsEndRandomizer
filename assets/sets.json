@@ -1,0 +1,22 @@
+[
+  {"name":"Aeon's End", "set":"AE", "image":"1", "wave":"1"},
+{"name":"The Depths", "set":"D", "image":"1", "wave":"1"},
+{"name":"The Nameless", "set":"N", "image":"1", "wave":"1"},
+{"name":"War Eternal", "set":"WE", "image":"1", "wave":"2"},
+{"name":"The Void", "set":"V", "image":"1", "wave":"2"},
+{"name":"The Outer Dark", "set":"OD", "image":"1", "wave":"2"},
+{"name":"Aeon's End: Legacy", "set":"L", "image":"1", "wave":"3"},
+{"name":"Buried Secrets", "set":"BS", "image":"1", "wave":"3"},
+{"name":"The New Age", "set":"NA", "image":"1", "wave":"4"},
+{"name":"Shattered Dreams", "set":"SD", "image":"1", "wave":"4"},
+{"name":"The Ancients", "set":"A", "image":"1", "wave":"4"},
+{"name":"Into the Wild", "set":"IW", "image":"1", "wave":"4"},
+{"name":"Outcasts", "set":"O", "image":"1", "wave":"5"},
+{"name":"Return to Gravehold", "set":"RG", "image":"1", "wave":"5"},
+{"name":"Southern Village", "set":"SV", "image":"1", "wave":"5"},
+{"name":"Legacy of Gravehold", "set":"LG", "image":"1", "wave":"6"},
+{"name":"The Ruins", "set":"R", "image":"1", "wave":"6"},
+{"name":"Past and Future", "set":"PF", "image":"1", "wave":"7"},
+{"name":"Origins", "set":"OR", "image":"1", "wave":"7"},
+{"name":"Evolution", "set":"E", "image":"1", "wave":"7"}
+]
