@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 export default function RandomMarket() {
   let dispatch = useDispatch();
   const market = useSelector((store) => store.market);
+  const selectedSets = useSelector((store) => store.sets);
   const [isLoading, setIsLoading] = useState(true); // Initialize loading state
 
   let newMarket = [];
@@ -20,11 +21,11 @@ export default function RandomMarket() {
     try {
 
       for (let i = 0; i < 9; i++) {
-        redraw(i);
-        console.log(20, i);
+          await redraw(i);
+          console.log(20, i, newMarket);
       }
-    } catch {
-      console.log("error in initial draw")
+    } catch(err) {
+      console.log("error in initial draw", err)
     } finally {
       setIsLoading(false);
     }
@@ -33,27 +34,31 @@ export default function RandomMarket() {
 
   const redraw = async (i) => {
     newMarket=market;
-    console.log("i", i);
+    // console.log("selected sets", selectedSets);
     if (i < 3) {
-      let random = Math.floor(Math.random() * gems.length);
-      console.log("rand", i, random, gems[random]);
-      // console.log("gem", i, random, gems[random]);
-      console.log(
+      let filteredGems = gems.filter((gem) => Object.keys(selectedSets).filter((key) => selectedSets[key]).includes(gem.set));
+      console.log("filtered gems", filteredGems)
+      let random = Math.floor(Math.random() * filteredGems.length);
+      let selectedGem = filteredGems[random];
+      console.log("rand", i, random, filteredGems[random]);
+      console.log("gem", i, random, gems[random]);
+      console.log( 42,
         newMarket[0],
-        newMarket[i - 1]?.name !== gems[random].name,
-        newMarket[i - 2]?.name !== gems[random].name
+        newMarket[i - 1]?.name !== selectedGem.name,
+        newMarket[i - 2]?.name !== selectedGem.name, 
+        selectedSets[selectedGem.set]
       );
       if (
-        newMarket[i - 1]?.name !== gems[random].name &&
-        newMarket[i - 2]?.name !== gems[random].name
+        newMarket[i - 1]?.name !== selectedGem.name &&
+        newMarket[i - 2]?.name !== selectedGem.name
       ) {
         if (newMarket[0]) {
-          newMarket[i] = gems[random];
+          newMarket[i] = selectedGem;
           console.log("add44");
         } else {
-          // console.log("parseint", parseInt(gems[random].cost));
-          if (parseInt(gems[random].cost) <= 4) {
-            newMarket[i] = gems[random];
+          // console.log("parseint", parseInt(selectedGem.cost));
+          if (parseInt(selectedGem.cost) <= 4) {
+            newMarket[i] = selectedGem;
             console.log("add49");
           } else {
             console.log("miss!");
@@ -61,29 +66,35 @@ export default function RandomMarket() {
           }
         }
       } else {
-        console.log("duplicate");
+        console.log("duplicate or wrong set", i);
         i--;
       }
     }
     if (i >= 3 && i < 5) {
-      let random = Math.floor(Math.random() * relics.length);
-      // console.log("relic", i, relics[random]);
-      if (newMarket[i - 1]?.name !== relics[random]?.name) {
-        newMarket[i] = relics[random];
+      let filteredRelics = relics.filter((relic) => Object.keys(selectedSets).filter((key) => selectedSets[key]).includes(relic.set));
+      let random = Math.floor(Math.random() * filteredRelics.length);
+      let selectedRelic = filteredRelics[random]
+      // console.log("relic", i, selectedRelic);
+      if (newMarket[i - 1]?.name !== selectedRelic?.name) {
+        newMarket[i] = selectedRelic;
       }
     }
     if (i >= 5 && i < 9) {
-      let random = Math.floor(Math.random() * spells.length);
+      let filteredSpells = spells.filter((spell) => Object.keys(selectedSets).filter((key) => selectedSets[key]).includes(spell.set));
+      let random = Math.floor(Math.random() * filteredSpells.length);
+      let selectedSpell = filteredSpells[random]
       console.log("spell", random, spells[random], i);
       if (
-        newMarket[i - 1]?.name !== spells[random].name &&
-        newMarket[i - 2]?.name !== spells[random]?.name &&
-        newMarket[i - 3]?.name !== spells[random]?.name
+        newMarket[i - 1]?.name !== selectedSpell.name &&
+        newMarket[i - 2]?.name !== selectedSpell?.name &&
+        newMarket[i - 3]?.name !== selectedSpell?.name
       ) {
-        newMarket[i] = spells[random];
+        newMarket[i] = selectedSpell;
       }
     }
     reorderNewMarket(newMarket);
+    newMarket = newMarket.filter((element) => element !== undefined);
+    i = newMarket.length;
     dispatch({ type: "UPDATE_MARKET", payload: newMarket });
     console.log("i", i) ;
     let output = i
@@ -97,7 +108,7 @@ export default function RandomMarket() {
         console.log(
           "gem parseint",
           j,
-          parseInt(newMarket[j]?.cost),
+          parseInt(newMarket[j]?.cxost),
           parseInt(newMarket[j + 1]?.cost)
         );
         if (parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost)) {
@@ -136,7 +147,7 @@ export default function RandomMarket() {
       }
       console.log("j", j);
     }
-    console.log("reordered market", newMarket)
+    // console.log("reordered market", newMarket)
   };
 
   return ({isLoading} && <ImageMap redraw={redraw} />);

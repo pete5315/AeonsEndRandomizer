@@ -9,9 +9,11 @@ import rootSaga from './sagas/_root.saga'; // imports ./redux/sagas/index.js
 const sagaMiddleware = createSagaMiddleware();
 
 // Create an array of middleware to apply
-const middlewareList = process.env.NODE_ENV === 'development'
-  ? [sagaMiddleware, logger] // Add logger middleware in development
-  : [sagaMiddleware];
+const middlewareList =
+//  process.env.NODE_ENV === 'development'
+//   ? [sagaMiddleware, logger] // Add logger middleware in development
+//   : 
+  [sagaMiddleware];
 
 // Create the Redux store with the rootReducer and middleware
 export const store = createStore(rootReducer, applyMiddleware(...middlewareList));

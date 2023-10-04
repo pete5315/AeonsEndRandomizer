@@ -6,8 +6,7 @@ export default function Settings() {
   console.log(selectedSets);
   const dispatch = useDispatch();
 
-  const renderItem = ({item}) => {
-    console.log(10, item);
+  const renderItem = ({item}) => { 
     // Define conditional styles based on the trait
     const itemStyle = {
       padding: 20,
