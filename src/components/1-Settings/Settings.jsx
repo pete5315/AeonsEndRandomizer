@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 const sets = require("../../../assets/sets.json");
 export default function Settings() {
   let highestWave = 0;
-  const [waveLabels, setWaveLabels] = useState([])
   const selectedSets = useSelector((store) => store.sets);
   const dispatch = useDispatch();
 
@@ -13,8 +12,8 @@ export default function Settings() {
     // console.log("wave", item.wave);
     let renderWave = !(highestWave===item.wave);
     highestWave=item.wave;
-    console.log("Item wave:", item.wave);
-console.log("Is wave included:", waveLabels.includes(item.wave));
+    // console.log("Item wave:", item.wave);
+// console.log("Is wave included:", waveLabels.includes(item.wave));
     const itemStyle = {
       padding: 20,
       borderColor: "gray",

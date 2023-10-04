@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 import RandomMarket from "./RandomMarket";
 

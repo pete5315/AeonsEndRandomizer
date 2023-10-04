@@ -8,6 +8,7 @@ import {
   ScrollView,
 } from "react-native";
 import { useSelector } from "react-redux";
+import CardImage from "../ReusableComponents/CardImage/CardImage";
 
 const ImageMap = ({ redraw }) => {
   const market = useSelector((store) => store.market);
@@ -23,10 +24,7 @@ const ImageMap = ({ redraw }) => {
     <ScrollView contentContainerStyle={styles.container}>
       {market?.map((image, i) => (
         <View style={styles.item} key={image.name}>
-          <Image
-            source={{ uri: image.image }}
-            style={styles.image}
-            resizeMode="contain"
+          <CardImage image={image.image} style={styles.image}
           />
           <Text style={styles.textFont}>
             {image.name} {image?.cost}

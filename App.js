@@ -6,10 +6,10 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { store } from "./src/redux/store";
 import { Provider } from "react-redux";
 
-import Market from "./src/components/Market/Market";
-import Campaign from "./src/components/Campaign/Campaign";
-import Cards from "./src/components/Cards/Cards";
-import Animation from "./src/components/Animation/Animation";
+import Market from "./src/components/2-Market/Market";
+import Campaign from "./src/components/3-Campaign/Campaign";
+import Cards from "./src/components/4-Cards/Cards";
+import Animation from "./src/components/ReusableComponents/Animation/Animation";
 
 const Stack = createNativeStackNavigator();
 

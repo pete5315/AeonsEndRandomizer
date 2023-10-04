@@ -2,10 +2,10 @@ import * as React from "react";
 import { View, Text, Animated } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 
-import Market from "../Market/Market";
-import Campaign from "../Campaign/Campaign";
-import Cards from "../Cards/Cards";
-import Settings from "../Settings/Settings";
+import Market from "../../2-Market/Market";
+import Campaign from "../../3-Campaign/Campaign";
+import Cards from "../../4-Cards/Cards";
+import Settings from "../../1-Settings/Settings";
 
 const FadeInView = (props, { navigation }) => {
   const fadeAnim = React.useRef(new Animated.Value(0)).current; // Initial value for opacity: 0
