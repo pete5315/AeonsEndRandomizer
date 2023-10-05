@@ -31,7 +31,7 @@ export default function Settings() {
         onPress={() => {
           // Update selected sets state based on the item's trait
           sendUpdate(item);
-          console.log("You pressed a button", item.trait);
+          console.log("You pressed a button", item);
         }}
       >
         <Text>{!renderWave && <Text>   </Text>}{item?.name}</Text>
@@ -46,6 +46,9 @@ export default function Settings() {
       type: "SET_SETS",
       payload: { [item.set]: !selectedSets[item.set] },
     });
+    dispatch({
+      type: "UNSET_MARKET",
+    })
   };
 
 

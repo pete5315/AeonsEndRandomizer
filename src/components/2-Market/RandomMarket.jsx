@@ -10,10 +10,12 @@ export default function RandomMarket() {
   let dispatch = useDispatch();
   const market = useSelector((store) => store.market);
   const selectedSets = useSelector((store) => store.sets);
-  const [isLoading, setIsLoading] = useState(true); // Initialize loading state
+  const isLoading = useSelector((store) => store.marketIsLoading);
 
   let newMarket = [];
+
   useEffect(() => {
+    dispatch({ type: "SET_MARKET_IS_LOADING" });
     initialDraw();
   }, []);
 
@@ -29,13 +31,13 @@ export default function RandomMarket() {
     } catch (err) {
       console.log("error in initial draw", err);
     } finally {
-      setIsLoading(false);
+      dispatch({ type: "RESET_MARKET_IS_LOADING" });
     }
   };
 
   const redraw = async (i) => {
     newMarket = market;
-    // console.log("top of function",  newMarket, i)
+    console.log("top of function", newMarket, i);
     // console.log("selected sets", selectedSets);
     if (i < 3) {
       let filteredGems = gems.filter((gem) =>
@@ -74,6 +76,7 @@ export default function RandomMarket() {
         i--;
       }
     }
+    console.log("a relic?");
     if (i >= 3 && i < 5) {
       let filteredRelics = relics.filter((relic) =>
         Object.keys(selectedSets)
@@ -95,33 +98,52 @@ export default function RandomMarket() {
         i--;
       }
     }
-    if (i >= 5 && i < 9) {
+    console.log("a spell?");
+    if (i >= 5) {
       let filteredSpells = spells.filter((spell) =>
         Object.keys(selectedSets)
           .filter((key) => selectedSets[key])
           .includes(spell.set)
       );
-      let random = Math.floor(Math.random() * filteredSpells.length);
-      let selectedSpell = filteredSpells[random];
+      let random, selectedSpell;
       // console.log("spell", random, filteredSpells[random], i);
-      if (
-        !(
+      let repeatedCard = false;
+      while (!repeatedCard) {
+        random = Math.floor(Math.random() * filteredSpells.length);
+        selectedSpell = filteredSpells[random];
+        console.log(
+          "a spell!",
           newMarket.filter((card) => card.name === selectedSpell.name).length >
-          0
-        )
-      ) {
-        newMarket[i] = selectedSpell;
-        // console.log(94, selectedSpell, i)
-      } else {
-        i--;
+            0,
+          selectedSpell
+        );
+        if (
+          !(
+            newMarket.filter((card) => card.name === selectedSpell.name)
+              .length > 0
+          )
+        ) {
+          repeatedCard = true;
+        }
       }
+      // if (
+      //   !(
+      //     newMarket.filter((card) => card.name === selectedSpell.name).length >
+      //     0
+      //   )
+      // ) {
+        newMarket[i] = selectedSpell;
+        console.log(94, selectedSpell, i);
+      // } else {
+      //   i--;
+      // }
     }
     reorderNewMarket(newMarket);
     newMarket = newMarket.filter((element) => element !== undefined);
     i = newMarket.length;
     dispatch({ type: "UPDATE_MARKET", payload: newMarket });
     // console.log("i", i) ;
-    let output = i;
+    let output = i - 1;
     return output;
   };
 
@@ -174,7 +196,7 @@ export default function RandomMarket() {
     // console.log("reordered market", newMarket)
   };
 
-  return { isLoading } && <ImageMap redraw={redraw} />;
+  return { isLoading } && <ImageMap redraw={redraw} isLoading={isLoading} />;
 }
 
 const styles = StyleSheet.create({

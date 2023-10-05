@@ -10,7 +10,7 @@ import {
 import { useSelector } from "react-redux";
 import CardImage from "../ReusableComponents/CardImage/CardImage";
 
-const ImageMap = ({ redraw }) => {
+const ImageMap = ({ redraw, isLoading }) => {
   const market = useSelector((store) => store.market);
   const [refreshFlag, setRefreshFlag] = useState(false);
 
@@ -18,6 +18,9 @@ const ImageMap = ({ redraw }) => {
     if (refreshFlag) {
       // Implement any additional logic you need here
       console.log("Component is refreshed");
+      setTimeout(setRefreshFlag(!refreshFlag), 300)
+      setRefreshFlag(isLoading)
+
     }
   }, [refreshFlag]);
   return (
