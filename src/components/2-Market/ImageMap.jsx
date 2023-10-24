@@ -7,12 +7,14 @@ import {
   Image,
   ScrollView,
 } from "react-native";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import CardImage from "../ReusableComponents/CardImage/CardImage";
 
 const ImageMap = ({ redraw, isLoading }) => {
   const market = useSelector((store) => store.market);
+  const selectedSets = useSelector((store) => store.sets);
   const [refreshFlag, setRefreshFlag] = useState(false);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     if (refreshFlag) {
@@ -22,7 +24,7 @@ const ImageMap = ({ redraw, isLoading }) => {
       setRefreshFlag(isLoading)
 
     }
-  }, [refreshFlag]);
+  }, []);
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {market?.map((image, i) => (
@@ -36,7 +38,8 @@ const ImageMap = ({ redraw, isLoading }) => {
               title="redraw"
               onPress={() => {
                 console.log("whoo, an button");
-                redraw(i);
+                console.log(selectedSets);
+                dispatch({type: "REDRAW_CARD", payload:{iterator: i, market, selectedSets}});
                 setRefreshFlag(!refreshFlag); // Toggle the state to trigger a re-render
 
               }}

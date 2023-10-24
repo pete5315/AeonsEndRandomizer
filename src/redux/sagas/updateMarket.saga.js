@@ -1,7 +1,7 @@
 import { put, takeLatest } from "redux-saga/effects";
 
 function* updateMarket(action) {
-  console.log("4, updating market");
+  console.log("updating market");
   try {
     yield put({ type: "UNSET_MARKET", payload: [] });
     console.log("market reset");

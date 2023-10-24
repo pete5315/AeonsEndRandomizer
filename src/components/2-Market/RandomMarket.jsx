@@ -15,19 +15,25 @@ export default function RandomMarket() {
   let newMarket = [];
 
   useEffect(() => {
-    dispatch({ type: "SET_MARKET_IS_LOADING" });
-    initialDraw();
+    console.log("random market use effect");
+    if (market.length < 9) {
+      dispatch({ type: "SET_MARKET_IS_LOADING" });
+      initialDraw();
+    } else {
+      dispatch({ type: "RESET_MARKET_IS_LOADING" });
+      console.log("Market is already loaded");
+    }
   }, []);
 
   const initialDraw = async () => {
     try {
-      for (let i = 0; i < 9; i++) {
-        if (i > market.length) {
-          i--;
-        }
-        await redraw(i);
-        // console.log(20, i, newMarket);
-      }
+      dispatch({
+        type: "DRAW_MARKET",
+        payload: {
+          market,
+          selectedSets,
+        },
+      });
     } catch (err) {
       console.log("error in initial draw", err);
     } finally {
@@ -35,168 +41,7 @@ export default function RandomMarket() {
     }
   };
 
-  const redraw = async (i) => {
-    newMarket = market;
-    console.log("top of function", newMarket, i);
-    // console.log("selected sets", selectedSets);
-    if (i < 3) {
-      let filteredGems = gems.filter((gem) =>
-        Object.keys(selectedSets)
-          .filter((key) => selectedSets[key])
-          .includes(gem.set)
-      );
-      // console.log("filtered gems", filteredGems)
-      let random = Math.floor(Math.random() * filteredGems.length);
-      let selectedGem = filteredGems[random];
-      // console.log("rand", i, random, filteredGems[random]);
-      // console.log("gem", i, random, filteredGems[random]);
-      // console.log( 45,
-      //   !(newMarket.filter((card) => card.name === selectedGem.name).length>0)
-
-      // );
-      if (
-        !(newMarket.filter((card) => card.name === selectedGem.name).length > 0)
-      ) {
-        if (newMarket[0]) {
-          newMarket[i] = selectedGem;
-          // console.log("add44");
-        } else {
-          // console.log("parseint", parseInt(selectedGem.cost));
-          if (parseInt(selectedGem.cost) <= 4) {
-            newMarket[i] = selectedGem;
-            // console.log("add49");
-            // console.log(newMarket);
-          } else {
-            // console.log("miss!");
-            i--;
-          }
-        }
-      } else {
-        // console.log("duplicate or wrong set", i);
-        i--;
-      }
-    }
-    console.log("a relic?");
-    if (i >= 3 && i < 5) {
-      let filteredRelics = relics.filter((relic) =>
-        Object.keys(selectedSets)
-          .filter((key) => selectedSets[key])
-          .includes(relic.set)
-      );
-      let random = Math.floor(Math.random() * filteredRelics.length);
-      let selectedRelic = filteredRelics[random];
-      // console.log("relic", i, selectedRelic);
-      if (
-        !(
-          newMarket.filter((card) => card.name === selectedRelic.name).length >
-          0
-        )
-      ) {
-        newMarket[i] = selectedRelic;
-        // console.log(77, selectedRelic)
-      } else {
-        i--;
-      }
-    }
-    console.log("a spell?");
-    if (i >= 5) {
-      let filteredSpells = spells.filter((spell) =>
-        Object.keys(selectedSets)
-          .filter((key) => selectedSets[key])
-          .includes(spell.set)
-      );
-      let random, selectedSpell;
-      // console.log("spell", random, filteredSpells[random], i);
-      let repeatedCard = false;
-      while (!repeatedCard) {
-        random = Math.floor(Math.random() * filteredSpells.length);
-        selectedSpell = filteredSpells[random];
-        console.log(
-          "a spell!",
-          newMarket.filter((card) => card.name === selectedSpell.name).length >
-            0,
-          selectedSpell
-        );
-        if (
-          !(
-            newMarket.filter((card) => card.name === selectedSpell.name)
-              .length > 0
-          )
-        ) {
-          repeatedCard = true;
-        }
-      }
-      // if (
-      //   !(
-      //     newMarket.filter((card) => card.name === selectedSpell.name).length >
-      //     0
-      //   )
-      // ) {
-        newMarket[i] = selectedSpell;
-        console.log(94, selectedSpell, i);
-      // } else {
-      //   i--;
-      // }
-    }
-    reorderNewMarket(newMarket);
-    newMarket = newMarket.filter((element) => element !== undefined);
-    i = newMarket.length;
-    dispatch({ type: "UPDATE_MARKET", payload: newMarket });
-    // console.log("i", i) ;
-    let output = i - 1;
-    return output;
-  };
-
-  const reorderNewMarket = (newMarket) => {
-    // console.log(newMarket);
-    for (let j = 0; j < newMarket.length; j++) {
-      if (j < 2 && newMarket.length > 1) {
-        // console.log(
-        //   "gem parseint",
-        //   j,
-        //   parseInt(newMarket[j]?.cxost),
-        //   parseInt(newMarket[j + 1]?.cost)
-        // );
-        if (parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost)) {
-          const temp = newMarket[j];
-          newMarket[j] = newMarket[j + 1];
-          newMarket[j + 1] = temp;
-          // console.log("updated gem order");
-          j = -1;
-        }
-      } else if (j === 3 && newMarket.length > 4) {
-        // console.log(
-        //   "relic parseint",
-        //   parseInt(newMarket[j]?.cost),
-        //   parseInt(newMarket[j + 1]?.cost)
-        // );
-        if (parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost)) {
-          const temp = newMarket[j];
-          newMarket[j] = newMarket[j + 1];
-          newMarket[j + 1] = temp;
-          // console.log("updated relic order");
-        }
-      } else if (j >= 5 && newMarket.length > 6) {
-        // console.log(
-        //   "spellparseints",
-        //   parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost),
-        //   parseInt(newMarket[j]?.cost),
-        //   parseInt(newMarket[j + 1]?.cost)
-        // );
-        if (parseInt(newMarket[j]?.cost) > parseInt(newMarket[j + 1]?.cost)) {
-          const temp = newMarket[j];
-          newMarket[j] = newMarket[j + 1];
-          newMarket[j + 1] = temp;
-          // console.log("updated spell order");
-          j = 4;
-        }
-      }
-      // console.log("j", j);
-    }
-    // console.log("reordered market", newMarket)
-  };
-
-  return { isLoading } && <ImageMap redraw={redraw} isLoading={isLoading} />;
+  return { isLoading } && <ImageMap isLoading={isLoading} />;
 }
 
 const styles = StyleSheet.create({

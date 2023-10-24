@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Text, View, Animated } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { store } from "./src/redux/store";
-import { Provider } from "react-redux";
+import { Provider, useDispatch, useSelector } from "react-redux";
 
 import Market from "./src/components/2-Market/Market";
 import Campaign from "./src/components/3-Campaign/Campaign";
@@ -98,12 +98,80 @@ function MyTabs() {
   const sceneContainerStyle = {
     backgroundColor: "#95a5a6",
   };
+
+  const market = useSelector((store) => store.market);
+  const dispatch = useDispatch();
+  const initialDraw = async () => {
+    try {
+      dispatch({
+        type: "DRAW_MARKET",
+        payload: {
+          market,
+          selectedSets,
+        },
+      });
+    } catch (err) {
+      console.log("error in initial draw", err);
+    } finally {
+      dispatch({ type: "RESET_MARKET_IS_LOADING" });
+    }
+  };
+  const selectedSets = useSelector((store) => store.sets);
+
+
   return (
     <Tab.Navigator {...{ screenOptions, sceneContainerStyle }}>
-      <Tab.Screen name="Settings" component={Animation} />
-      <Tab.Screen name="Market" component={Animation} />
-      <Tab.Screen name="Campaign" component={Animation} />
-      <Tab.Screen name="Cards" component={Animation} />
+      <Tab.Screen
+        name="Settings"
+        component={Animation}
+        listeners={({ navigation, route }) => ({
+          focus: (e) => {
+            // Trigger your saga or action when Tab1 is focused
+            // You can dispatch actions, initiate sagas, or perform any specific logic here.
+            console.log("Settings is focused");
+          },
+        })}
+      />
+      <Tab.Screen
+        name="Market"
+        component={Animation}
+        listeners={({ navigation, route }) => ({
+          focus: (e) => {
+            // Trigger your saga or action when Tab1 is focused
+            // You can dispatch actions, initiate sagas, or perform any specific logic here.
+            console.log("Market is focused");
+            if (market.length < 9) {
+              dispatch({ type: "SET_MARKET_IS_LOADING" });
+              initialDraw();
+            } else {
+              dispatch({ type: "RESET_MARKET_IS_LOADING" });
+              console.log("Market is already loaded");
+            }
+          },
+        })}
+      />
+      <Tab.Screen
+        name="Campaign"
+        component={Animation}
+        listeners={({ navigation, route }) => ({
+          focus: (e) => {
+            // Trigger your saga or action when Tab1 is focused
+            // You can dispatch actions, initiate sagas, or perform any specific logic here.
+            console.log("Campaign is focused");
+          },
+        })}
+      />
+      <Tab.Screen
+        name="Cards"
+        component={Animation}
+        listeners={({ navigation, route }) => ({
+          focus: (e) => {
+            // Trigger your saga or action when Tab1 is focused
+            // You can dispatch actions, initiate sagas, or perform any specific logic here.
+            console.log("Cards is focused");
+          },
+        })}
+      />
     </Tab.Navigator>
   );
 }
