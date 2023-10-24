@@ -1,10 +1,10 @@
-import {Image, StyleSheet} from "react-native";
+import {Image, StyleSheet, TouchableOpacity} from "react-native";
 
 const CardImage = ({image, style}) => {
 
   
   return (
-    
+
     <Image
     source={{ uri: image }}
     style={style}

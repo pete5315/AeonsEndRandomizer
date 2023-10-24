@@ -6,6 +6,7 @@ import {
   StyleSheet,
   Image,
   ScrollView,
+  TouchableOpacity,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import CardImage from "../ReusableComponents/CardImage/CardImage";
@@ -20,31 +21,42 @@ const ImageMap = ({ redraw, isLoading }) => {
     if (refreshFlag) {
       // Implement any additional logic you need here
       console.log("Component is refreshed");
-      setTimeout(setRefreshFlag(!refreshFlag), 300)
-      setRefreshFlag(isLoading)
-
+      setTimeout(setRefreshFlag(!refreshFlag), 300);
+      setRefreshFlag(isLoading);
     }
   }, []);
+
+  const redrawPress = (i) => {
+    console.log("whoo, an button");
+    console.log(selectedSets);
+    dispatch({
+      type: "REDRAW_CARD",
+      payload: { iterator: i, market, selectedSets },
+    });
+    setRefreshFlag(!refreshFlag); // Toggle the state to trigger a re-render
+
+  }
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {market?.map((image, i) => (
         <View style={styles.item} key={image.name}>
-          <CardImage image={image.image} style={styles.image}
-          />
+          <TouchableOpacity
+            onPress={() => {
+              redrawPress(i);
+            }}
+          >
+            <CardImage image={image.image} style={styles.image} />
+          </TouchableOpacity>
           <Text style={styles.textFont}>
             {image.name} {image?.cost}
           </Text>
-            <Button
-              title="redraw"
-              onPress={() => {
-                console.log("whoo, an button");
-                console.log(selectedSets);
-                dispatch({type: "REDRAW_CARD", payload:{iterator: i, market, selectedSets}});
-                setRefreshFlag(!refreshFlag); // Toggle the state to trigger a re-render
-
-              }}
-            >
-            </Button>
+          <Button
+            title="redraw"
+            onPress={() => {
+              redrawPress(i);
+            }}
+          ></Button>
         </View>
       ))}
     </ScrollView>
