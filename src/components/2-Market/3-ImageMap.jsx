@@ -13,7 +13,7 @@ import {
 
 import { useDispatch, useSelector } from "react-redux";
 import CardImage from "../ReusableComponents/CardImage/CardImage";
-import ImageModal from "./4-ImageModal";
+import ImageModal from "../ReusableComponents/ImageModal/ImageModal";
 
 const ImageMap = ({ redraw, isLoading }) => {
   const market = useSelector((store) => store.market);
@@ -23,7 +23,7 @@ const ImageMap = ({ redraw, isLoading }) => {
 
   const showModal = (image, i) => {
     console.log(30, image, modalImage);
-    dispatch({ type: "SET_MODAL_IMAGE", payload: {image, i} });
+    dispatch({ type: "SET_MODAL_IMAGE", payload: { image, i } });
   };
 
   const hideModal = () => {
@@ -116,17 +116,17 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   redrawButton: {
-    backgroundColor: 'rgba(55, 155, 255, 0.5)', // Set the background color to your desired color
+    backgroundColor: "rgba(55, 155, 255, 0.5)", // Set the background color to your desired color
     borderRadius: 10, // Set the border radius for rounded edges
     padding: 10, // Add padding to the button for spacing
-    justifyContent: 'center', // Center the text horizontally
-    alignItems: 'center', // Center the text vertically
+    justifyContent: "center", // Center the text horizontally
+    alignItems: "center", // Center the text vertically
     margin: 10,
   },
   redrawButtonText: {
-    color: 'rgba(255, 255, 220, 0.5)', // Set the text color
+    color: "rgba(255, 255, 220, 0.5)", // Set the text color
     fontSize: 16, // Set the font size
-    fontWeight: 'bold', // Set the font weight
+    fontWeight: "bold", // Set the font weight
   },
 });
 

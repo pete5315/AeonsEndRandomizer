@@ -607,12 +607,5 @@
     "set": "Promo",
     "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/ChronophageCoil.jpg?0",
     "text": "Destroy this. Shuffle any player's turn order card into the turn order deck."
-  },
-  {
-    "name": "Cataclysm Seed",
-    "cost": "7",
-    "set": "Promo",
-    "image": "https://cdn.shopify.com/s/files/1/0384/0265/files/CataclysmSeed.jpg?0",
-    "text": "Gain a charge. Or Destroy this. Each player may destroy any number of cards in hand."
   }
 ]

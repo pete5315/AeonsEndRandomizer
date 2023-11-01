@@ -10,7 +10,7 @@ import {
   Image,
 } from "react-native";
 import { useEffect, useState } from "react";
-import CardImage from "../ReusableComponents/CardImage/CardImage";
+import CardImage from "../CardImage/CardImage";
 
 const ImageModal = ({ image, isVisible, i, hideModal }) => {
   const dispatch = useDispatch();
