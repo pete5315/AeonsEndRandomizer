@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
-import ImageMap from "./ImageMap";
+import ImageMap from "./3-ImageMap";
 const gems = require("../../../assets/gems.json");
 const relics = require("../../../assets/relics.json");
 const spells = require("../../../assets/spells.json");
