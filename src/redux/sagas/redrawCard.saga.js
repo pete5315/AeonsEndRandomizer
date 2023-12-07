@@ -5,7 +5,7 @@ const spells = require("../../../assets/spells.json");
 
 // worker Saga: will be fired on "FETCH_USER" actions
 function* redrawMarket(action) {
-  console.log("8",action.payload);
+  console.log("8", action.payload);
 
   try {
     for (let k = 0; k < 9; k++) {
@@ -25,7 +25,7 @@ function* redrawMarket(action) {
 }
 
 function* redraw(action) {
-  console.log("28",action);
+  console.log("28", action);
   let newMarket = action.payload.market;
   let i = action.payload.iterator;
   let selectedSets = action.payload.selectedSets;
@@ -57,7 +57,8 @@ function* redraw(action) {
     }
     // console.log("rand", i, random, filteredGems[random]);
     console.log(
-      59,i,
+      59,
+      i,
       !(newMarket.filter((card) => card.name === selectedGem.name).length > 0),
       !newMarket[0]
     );
@@ -157,10 +158,10 @@ function* redraw(action) {
     //   i--;
     // }
   }
-  console.log("pre-reordered market", newMarket)
+  console.log("pre-reordered market", newMarket);
   loggg();
   reorderNewMarket(newMarket);
-  console.log("reordered market", newMarket)
+  console.log("reordered market", newMarket);
   newMarket = newMarket.filter((element) => element !== undefined);
   i = newMarket.length;
   try {
@@ -224,7 +225,7 @@ function reorderNewMarket(newMarket) {
     }
     // console.log("j", j);
   }
-  console.log("reordered market", newMarket)
+  console.log("reordered market", newMarket);
 }
 
 function* redrawCardSaga() {

@@ -14,14 +14,15 @@ import { useFocusEffect } from "@react-navigation/native";
 const gems = require("../../../assets/gems.json");
 const relics = require("../../../assets/relics.json");
 const spells = require("../../../assets/spells.json");
-const list = [...gems, ...relics, ...spells].sort((a, b) => a.name.localeCompare(b.name))
+const list = [...gems, ...relics, ...spells].sort((a, b) =>
+  a.name.localeCompare(b.name)
+);
 
 import ImageModal from "../ReusableComponents/ImageModal/ImageModal";
 import { useDispatch, useSelector } from "react-redux";
 
 const FadeInView = (props, { navigation }) => {
   const fadeAnim = React.useRef(new Animated.Value(0)).current; // Initial value for opacity: 0
-  
 
   useFocusEffect(() => {
     Animated.timing(fadeAnim, {
@@ -57,8 +58,9 @@ export default function Cards() {
   const [textInput, handleTextInput] = React.useState("");
 
   const filteredList = list.filter((item) =>
-  item.name.toLowerCase().includes(textInput.toLowerCase())
-);  const showModal = (image, i) => {
+    item.name.toLowerCase().includes(textInput.toLowerCase())
+  );
+  const showModal = (image, i) => {
     console.log(30, image, modalImage);
     dispatch({ type: "SET_MODAL_IMAGE", payload: { image, i } });
   };
@@ -111,19 +113,18 @@ export default function Cards() {
             hideModal={() => hideModal()}
           />
         )}
-        <Text>Search</Text>
-          <Text> </Text>
+        <Text> </Text>
+        <Text> </Text>
         <TextInput
           style={styles.input}
           placeholder="Search"
           onChangeText={handleTextInput}
           value={textInput}
-
         ></TextInput>
         <FlatList
           data={filteredList}
           renderItem={renderItem}
-          keyExtractor={(item, set) => item.name+item.set}
+          keyExtractor={(item, set) => item.name + item.set}
           style={styles.list}
         />
       </View>
@@ -133,10 +134,8 @@ export default function Cards() {
 
 const styles = StyleSheet.create({
   container: {},
-  input: {
-
-  },
+  input: {height: 40, margin: 15, },
   list: {
     backgroundColor: "rgba(255,255,255,0.5)",
-  }
+  },
 });

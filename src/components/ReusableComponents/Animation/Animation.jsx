@@ -3,7 +3,7 @@ import { View, Text, Animated } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 
 import Market from "../../2-Market/1-Market"
-import Campaign from "../../3-Campaign/Campaign";
+import Campaign from "../../3-Campaign/1-Campaign";
 import Cards from "../../4-Cards/Cards";
 import Settings from "../../1-Settings/Settings";
 

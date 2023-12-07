@@ -18,7 +18,7 @@ export default function Settings() {
       padding: 20,
       borderColor: "gray",
       borderBottomWidth: 1,
-      backgroundColor: selectedSets[item.set] === true ? "blue" : "white", // Example: Apply blue background for items with trait "A"
+      backgroundColor: selectedSets[item.set] === true ? "lightblue" : "white", // Example: Apply blue background for items with trait "A"
     };
     return (
       <View>
@@ -55,6 +55,8 @@ export default function Settings() {
 
   return (
     <View>
+      <Text> </Text>
+      <Text> </Text>
       <FlatList
         data={sets}
         renderItem={renderItem}
